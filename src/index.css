@@ -1,13 +1,48 @@
+@import "./component/assets/styles/fonts.css";
+@import "./component/assets/styles/commonClasses.css";
+@import "./component/assets/styles/variables.css";
+@import "./component/assets/styles/animations.css";
+
+html{
+  scroll-behavior: smooth;
+}
+a{
+  color:#ffe570;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Kanit', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg-primary);;
+  /* color: #ffffd8; */
+  color: #ffe570;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.btn {
+  padding: 9px 16px;
+  border-radius: 4px;
+  outline: none;
+  /* border: 0.5px solid var(--color-green); */
+  font-size: 18px;
+  /* background-color: var(--color-green); */
+  /* color: #000; */
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn:hover {
+  transition: var(--transition);
+  color: var(--color-green);
+  background-color: #000;
+  border: 0.5px solid var(--color-green);
 }
