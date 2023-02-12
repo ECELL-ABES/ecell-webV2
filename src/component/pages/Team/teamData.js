@@ -14,31 +14,147 @@ import img11 from '../../assets/team/DivyanshuGupta.jpeg'
 import YashSarin from '../../assets/team/YashSarin.jpg'
 import RudranshJain from '../../assets/team/RudranshJain.jpg'
 import ShubhanshMahawar from '../../assets/team/ShubhanshMahawar.jpg'
+import BhaskarDev from '../../assets/team/BhaskarDev.jpeg'
+import ShreyashPandey from '../../assets/team/ShreyashPandey.jpg'
+import AdityaKumar from '../../assets/team/AdityaKumar.jpeg'
+import Neelansh from '../../assets/team/Neelansh.jpg'
+import NamanKumar from '../../assets/team/NamanKumar.jpeg'
 
-export const teamData=[
+
+
+export const mentor=[
     {
-    name:'Nandini Bhardwaj',	
-    position: 'Overall Cordinator',
-    mail: 'mailto:nandinibhardwaj20@gmail.com',
-    linkedIn: '',
-    // instagram:'https://instagram.com/yashprime02', 
-    image: NandiniBhardwaj,	
-},
+        name:'Nandini Bhardwaj',	
+        position: 'Lead Cordinator',
+        mail: 'mailto:nandinibhardwaj20@gmail.com',
+        linkedIn: '',
+        // instagram:'https://instagram.com/yashprime02', 
+        image: NandiniBhardwaj,	
+    },
     {
-    name:'Paras Agarwal',	
-    position: 'Overall Cordinator',
-    mail: 'mailto:paras.19b001024@gmail.com',
-    linkedIn: 'https://www.linkedin.com/in/paras-agarwal-044383238',
-    // instagram:'https://instagram.com/yashprime02', 
-    image: ParasAgarwal,	
-},
+        name:'Paras Agarwal',	
+        position: 'Finance Mentor',
+        mail: 'mailto:paras.19b001024@gmail.com',
+        linkedIn: 'https://www.linkedin.com/in/paras-agarwal-044383238',
+        // instagram:'https://instagram.com/yashprime02', 
+        image: ParasAgarwal,	
+    },
+    {
+        name:'Naman Kumar',
+        position:'Technical Mentor',
+        mail:'mailto:kumarnaman_7046@yahoo.com',
+        linkedIn:'https://www.linkedin.com/in/naman-kumar-1062681b2',
+        image:NamanKumar,
+    },
+    {
+        name:'Aditya Kumar Singh',
+        position:'Photography Mentor',
+        mail:'',
+        linkedIn:'https://www.linkedin.com/in/aditya-singh-968a231a9/',
+        image:AdityaKumar,
+    }
+]
+export const cordinators=[ 
     {
     name:'Yash Mishra',	
-    position: 'Overall Cordinator',
+    position: 'Executive Cordinator',
     mail: 'mailto:yash.20b0131154@abes.ac.in',
     linkedIn: 'https://in.linkedin.com/in/yash-mishra-b2290220a',
     instagram:'https://instagram.com/yashprime02', 
     image: img1,	
+},
+{
+    name:'Neelansh Panday',
+    position: 'Techincal Cordinator',
+    mail:'mailto:Neelansh.20B0131095@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/neelansh-pandey-81348b21b',
+    image:Neelansh,
+    
+},
+{
+    name: 'Divyanshu Gupta',
+    position: 'Events amd planning Cordinator',
+    mail:'mailto:Divyanshu.20B0311189@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/divyanshu-gupta-691310202',
+    instagram:'https://www.instagram.com/di_we_an_shu.2002',
+    image:img11,
+},
+{
+    name:'Kamakshi Agarwal',
+    position: 'Events amd planning Cordinator',
+    mail: 'mailto:Kamakshi.20b1541032@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/-kamakshi-agarwal/'	,
+    instagram:'https://instagram.com/kamakshiii_20',
+    image:img2,
+ },
+ {
+        name:'Shoaib ahmed',
+        position:'Fundraising And Sponsorship Cordinator',
+        mail:'mailto:shoaib.20b0211002@abes.ac.in',
+        linkedIn:'https://www.linkedin.com/in/shoaib-ahmed-367916214',
+        instagram:'https://instagram.com/shoaibahmed6433?igshid=Mzc0YWU1OWY=',
+        image:img7,
+    },
+    {           		
+        name:'Yash Sarin',
+        position:'Fundraising And Sponsorship Cordinator',
+        mail:'mailto:Yash.20B0311044@abes.ac.in',
+        linkedIn:'https://www.linkedin.com/in/yash-sarin-84185b221',
+        image: YashSarin,
+    },       	            
+    {
+        name:'Anshika Singh' ,
+        position:'Photography Cordinator' ,
+        mail:'mailto:Anshika.20b0311068@abes.ac.in' ,
+        linkedIn:'https://www.linkedin.com/in/anshika-singh-0a7993220'	,
+         instagram: 'annxiieee' ,
+        image:img8,
+    },
+    
+    {
+        name:'Ayushi Singhal',
+        position:'Documentation And Policies Cordinator',
+        mail:  'mailto:Ayushi.20B1541021@abes.ac.in',
+        linkedIn: 'https://www.linkedin.com/in/ayushi-singhal-9a4a4720a/',
+        instagram:' https://www.instagram.com/ayushisinghal_14/?next=%2F',
+        image:img9,
+    },
+    {
+        name:'Sachin Sharma',
+        position:'Social Media Cordinator',
+        mail:'mailto:Sachin.20B1531049@abes.ac.in',
+        linkedIn: 'https://www.linkedin.com/in/sachin-sharma-728b67201',
+        instagram:'https://www.instagram.com/sachin_sharma_24',
+        image:img10,
+    },                    			
+]
+
+
+
+export const team=[
+    {
+        name:'Shiwatvi',
+        position:'Technical Department',
+        mail:'mailto:shiwatvi.20b0211032@abes.ac.in',
+        linkedIn:'https://www.linkedin.com/in/shiwatvi-dwivedi-0a12a1202',
+        instagram:'https://www.instagram.com/grace_sur_moi/?next=%2F',
+        image:img6,
+    },
+    {
+        name:'SAURABH SRIVASTAVA'	,
+        position: 'Technical Department',
+        mail: 'mailto:Saurabh.20B0131057@abes.in',		
+        linkedIn:'https://www.linkedin.com/in/saurabh-srivastava-714818202',
+        instagram:'https://instagram.com/saurabh.js_?igshid=Mzc0YWU1OWY=',	
+        image:img5,	
+},
+{
+    name:'Shivang Singh Rawat',
+    position:'Technical Department' ,
+   mail:  'mailto:shivang.20b0131079@abes.ac.in'	,
+   linkedIn: 'http://www.linkedin.com/in/rawatshiv',	
+    instagram:'www.instagram.com/rawat_shivx28',	
+   image: img4,
 },
 {
     name:'Rudransh Jain',
@@ -48,103 +164,36 @@ export const teamData=[
     image:RudranshJain,
 },
 {
-    name:'Kamakshi Agarwal',
-    position: 'Events amd planning Department',
-    mail: 'mailto:Kamakshi.20b1541032@abes.ac.in',
-    linkedIn:'https://www.linkedin.com/in/-kamakshi-agarwal/'	,
-    instagram:'https://instagram.com/kamakshiii_20',
-    image:img2,
+    name:'Shashank Shekhar Yadav',
+    position: 'Events and Planning Department',
+    mail: 'mailto:shashankshekhar26yadav@gmail.com',
+    linkedIn:'https://www.linkedin.com/in/shashank-shekhar-yadav-a088b81ba',
+     instagram:'https://instagram.com/shashankshekharyad?igshid=Mzc0YWU1OWY=',	
+    image:img3,	
  },
 {
-    name: 'Divyanshu Gupta',
-    position: 'Events amd planning Department',
-    mail:'mailto:Divyanshu.20B0311189@abes.ac.in',
-    linkedIn:'https://www.linkedin.com/in/divyanshu-gupta-691310202',
-    instagram:'https://www.instagram.com/di_we_an_shu.2002',
-    image:img11,
+    name:'Bhaskar Dev',
+    position: 'Events and Planning Department',
+    mail: 'mailto:bhaskar.21b0103011@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/bhaskar-dev-3718bb222',
+     image:BhaskarDev,	
+ },
+ {
+    name:'Shubhansh Mahawar',
+    position:'Social Media Department',
+    mail:'mailto:shubhansh.20b0311114@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/shubhansh-mahawar-5a822420b',
+    image:ShubhanshMahawar,
 },
-{
-        name:'Shivang Singh Rawat',
-        position:'Technical Department' ,
-       mail:  'mailto:shivang.20b0131079@abes.ac.in'	,
-       linkedIn: 'http://www.linkedin.com/in/rawatshiv',	
-        instagram:'www.instagram.com/rawat_shivx28',	
-       image: img4,
-},
-{
-        name:'SAURABH SRIVASTAVA'	,
-        position: 'Technical Department',
-        mail: 'mailto:Saurabh.20B0131057@abes.in',		
-        linkedIn:'https://www.linkedin.com/in/saurabh-srivastava-714818202',
-        instagram:'https://instagram.com/saurabh.js_?igshid=Mzc0YWU1OWY=',	
-        image:img5,	
-},
-{
-        name:'Shiwatvi',
-        position:'Technical Department',
-        mail:'mailto:shiwatvi.20b0211032@abes.ac.in',
-        linkedIn:'https://www.linkedin.com/in/shiwatvi-dwivedi-0a12a1202',
-        instagram:'https://www.instagram.com/grace_sur_moi/?next=%2F',
-        image:img6,
-},
-{
-        name:'Shoaib ahmed',
-        position:'Corporate connect Department',
-        mail:'mailto:shoaib.20b0211002@abes.ac.in',
-        linkedIn:'https://www.linkedin.com/in/shoaib-ahmed-367916214',
-        instagram:'https://instagram.com/shoaibahmed6433?igshid=Mzc0YWU1OWY=',
-        image:img7,
-    },
-    {
-        name:'Anshika Singh' ,
-        position:'Photography Department' ,
-        mail:'mailto:Anshika.20b0311068@abes.ac.in' ,
-        linkedIn:'https://www.linkedin.com/in/anshika-singh-0a7993220'	,
-         instagram: 'annxiieee' ,
-        image:img8,
-    },
-    {
-        name:'Shashank Shekhar Yadav',
-        position: 'Promotion and Outreach Department',
-        mail: 'mailto:shashankshekhar26yadav@gmail.com',
-        linkedIn:'https://www.linkedin.com/in/shashank-shekhar-yadav-a088b81ba',
-         instagram:'https://instagram.com/shashankshekharyad?igshid=Mzc0YWU1OWY=',	
-        image:img3,	
-     },
-    {
-        name:'Ayushi Singhal',
-        position:'Documentation Department',
-        mail:  'mailto:Ayushi.20B1541021@abes.ac.in',
-        linkedIn: 'https://www.linkedin.com/in/ayushi-singhal-9a4a4720a/',
-        instagram:' https://www.instagram.com/ayushisinghal_14/?next=%2F',
-        image:img9,
-    },
-    {
-        name:'Sachin Sharma',
-        position:'Social Media Department',
-        mail:'mailto:Sachin.20B1531049@abes.ac.in',
-        linkedIn: 'https://www.linkedin.com/in/sachin-sharma-728b67201',
-        instagram:'https://www.instagram.com/sachin_sharma_24',
-        image:img10,
-    },
-   
-   
-    {
-        name:'Shubhansh Mahawar',
-        position:'Social Media Department',
-        mail:'mailto:shubhansh.20b0311114@abes.ac.in',
-        linkedIn:'https://www.linkedin.com/in/shubhansh-mahawar-5a822420b',
-        image:ShubhanshMahawar,
-    },                    			
-    {           		
-        name:'Yash Sarin',
-        position:'Finance Department',
-        mail:'mailto:Yash.20B0311044@abes.ac.in',
-        linkedIn:'https://www.linkedin.com/in/yash-sarin-84185b221',
-        image: YashSarin,
-    },       	            
-]
 
+{
+    name:'Shreyash Panday',
+    position:'Documentation And Policies Department',
+    mail:  'mailto:Shreyash.20b1531113@abes.ac.in',
+    linkedIn: 'https://www.linkedin.com/in/shreyash-pandey-7064ab202',
+    image:ShreyashPandey,
+},
+]
             
             
             
