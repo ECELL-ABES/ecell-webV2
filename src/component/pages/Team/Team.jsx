@@ -3,7 +3,7 @@ import './team.css'
 import { BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 import { HiMail } from 'react-icons/hi';
-import { cordinators, mentor, team, teamData } from './teamData';
+import { Cordinators, mentor, team, teamData } from './teamData';
 
 
 
