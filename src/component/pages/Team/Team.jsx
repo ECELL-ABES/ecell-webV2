@@ -49,7 +49,7 @@ function Team() {
       <h1 className='text-center'>Co-Ordinators</h1>
 
         <div className='card_container'>        {
-          cordinators.map((item)=>{
+          Cordinators.map((item)=>{
             return(
               <div className='card'>
                 <div className='cardImg'>
