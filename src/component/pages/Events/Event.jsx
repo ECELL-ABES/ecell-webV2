@@ -1,5 +1,6 @@
 import React from 'react'
 import './event.css'
+import { eventData } from './Eventdata'
 
 const TeamData=[
   {
@@ -21,14 +22,14 @@ const TeamData=[
 
 function Event() {
   return (
-    <div className='container max-width' id='event'>
+    <div className='container max-width underline' id='event'>
         <div className='heading'>
           <h1>Insights</h1>
         </div>
 
       <div className='event_card_container'>
         {
-          TeamData.map((item)=>{
+          eventData.map((item)=>{
             return(
               <div className='event_card'>
                   <div className='event_cardBody'>

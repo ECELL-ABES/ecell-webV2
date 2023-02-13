@@ -8,16 +8,7 @@ function About() {
             <h1 className='text-center'>About Us</h1>
             </div>
             <div className='about-content'>
-            <p className='text'>An ABES Engineering College - Entrepreneurship Cell (E-Cell) is a student-run organization aimed at promoting and fostering the spirit of entrepreneurship among young people. E-Cells are typically found in colleges and universities and aim to provide students with resources, support, and opportunities to turn their entrepreneurial ideas into reality.<br/><br/>
-            <b>The activities of an E-Cell typically include:</b> <br/><br/>
-            
-            → Workshops and seminars on various aspects of entrepreneurship such as business planning, marketing, and financial management.<br/>
-            → Guest lectures by successful entrepreneurs.<br/>
-            → Networking events to connect students with potential investors, mentors, and other entrepreneurs<br/>
-            → Incubation support to help students turn their ideas into viable businesses.<br/>
-            → Competitions and challenges to encourage students to develop and showcase their entrepreneurial skills
-            An E-Cell provides students with a platform to develop their entrepreneurial skills and to bring their ideas to life. It also helps students build a network of like-minded individuals and provides them with access to resources that can help them turn their ideas into successful businesses. Overall, an E-Cell is an important resource for students who are interested in entrepreneurship and is an excellent way to develop the skills and knowledge necessary to succeed as an entrepreneur.
-            
+            <p className='text-center text'>The Entrepreneurship cell of ABES Engineering College is a dedicated service of the college that caters to innovative young entrepreneurs and promotes the pursuit of innovation and creation. We believe passionately in the power of young, their developing and creative brains, and how such innovative abilities may transform the country's future. The motto of E-Cell's is "Dream, Believe, Achieve," and we passionately believe that you can achieve your dreams if you believe in them and have the power to act on them. The ABES EC E-Cell is the branch of the organization that assists you in realizing your dreams by instilling in you the values of entrepreneurship and innovation, as well as assisting you in making your dream into a reality.
             </p>
 
         </div>
