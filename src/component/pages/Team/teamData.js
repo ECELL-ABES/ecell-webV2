@@ -25,7 +25,7 @@ import NamanKumar from '../../assets/team/NamanKumar.jpeg'
 export const mentor=[
     {
         name:'Nandini Bhardwaj',	
-        position: 'Lead Cordinator',
+        position: 'Lead Coordinator',
         mail: 'mailto:nandinibhardwaj20@gmail.com',
         linkedIn: '',
         // instagram:'https://instagram.com/yashprime02', 
@@ -54,10 +54,10 @@ export const mentor=[
         image:AdityaKumar,
     }
 ]
-export const cordinators=[ 
+export const Cordinators=[ 
     {
     name:'Yash Mishra',	
-    position: 'Executive Cordinator',
+    position: 'Executive Coordinator',
     mail: 'mailto:yash.20b0131154@abes.ac.in',
     linkedIn: 'https://in.linkedin.com/in/yash-mishra-b2290220a',
     instagram:'https://instagram.com/yashprime02', 
@@ -65,7 +65,7 @@ export const cordinators=[
 },
 {
     name:'Neelansh Panday',
-    position: 'Techincal Cordinator',
+    position: 'Techincal Coordinator',
     mail:'mailto:Neelansh.20B0131095@abes.ac.in',
     linkedIn:'https://www.linkedin.com/in/neelansh-pandey-81348b21b',
     image:Neelansh,
@@ -73,7 +73,7 @@ export const cordinators=[
 },
 {
     name: 'Divyanshu Gupta',
-    position: 'Events amd planning Cordinator',
+    position: 'Events amd planning Coordinator',
     mail:'mailto:Divyanshu.20B0311189@abes.ac.in',
     linkedIn:'https://www.linkedin.com/in/divyanshu-gupta-691310202',
     instagram:'https://www.instagram.com/di_we_an_shu.2002',
@@ -81,7 +81,7 @@ export const cordinators=[
 },
 {
     name:'Kamakshi Agarwal',
-    position: 'Events amd planning Cordinator',
+    position: 'Events amd planning Coordinator',
     mail: 'mailto:Kamakshi.20b1541032@abes.ac.in',
     linkedIn:'https://www.linkedin.com/in/-kamakshi-agarwal/'	,
     instagram:'https://instagram.com/kamakshiii_20',
@@ -89,7 +89,7 @@ export const cordinators=[
  },
  {
         name:'Shoaib ahmed',
-        position:'Fundraising And Sponsorship Cordinator',
+        position:'Fundraising And Sponsorship Coordinator',
         mail:'mailto:shoaib.20b0211002@abes.ac.in',
         linkedIn:'https://www.linkedin.com/in/shoaib-ahmed-367916214',
         instagram:'https://instagram.com/shoaibahmed6433?igshid=Mzc0YWU1OWY=',
@@ -97,14 +97,14 @@ export const cordinators=[
     },
     {           		
         name:'Yash Sarin',
-        position:'Fundraising And Sponsorship Cordinator',
+        position:'Fundraising And Sponsorship Coordinator',
         mail:'mailto:Yash.20B0311044@abes.ac.in',
         linkedIn:'https://www.linkedin.com/in/yash-sarin-84185b221',
         image: YashSarin,
     },       	            
     {
         name:'Anshika Singh' ,
-        position:'Photography Cordinator' ,
+        position:'Photography Coordinator' ,
         mail:'mailto:Anshika.20b0311068@abes.ac.in' ,
         linkedIn:'https://www.linkedin.com/in/anshika-singh-0a7993220'	,
          instagram: 'annxiieee' ,
@@ -113,7 +113,7 @@ export const cordinators=[
     
     {
         name:'Ayushi Singhal',
-        position:'Documentation And Policies Cordinator',
+        position:'Documentation And Policies Coordinator',
         mail:  'mailto:Ayushi.20B1541021@abes.ac.in',
         linkedIn: 'https://www.linkedin.com/in/ayushi-singhal-9a4a4720a/',
         instagram:' https://www.instagram.com/ayushisinghal_14/?next=%2F',
@@ -121,7 +121,7 @@ export const cordinators=[
     },
     {
         name:'Sachin Sharma',
-        position:'Social Media Cordinator',
+        position:'Social Media Coordinator',
         mail:'mailto:Sachin.20B1531049@abes.ac.in',
         linkedIn: 'https://www.linkedin.com/in/sachin-sharma-728b67201',
         instagram:'https://www.instagram.com/sachin_sharma_24',
@@ -132,14 +132,7 @@ export const cordinators=[
 
 
 export const team=[
-    {
-        name:'Shiwatvi',
-        position:'Technical Department',
-        mail:'mailto:shiwatvi.20b0211032@abes.ac.in',
-        linkedIn:'https://www.linkedin.com/in/shiwatvi-dwivedi-0a12a1202',
-        instagram:'https://www.instagram.com/grace_sur_moi/?next=%2F',
-        image:img6,
-    },
+    
     {
         name:'SAURABH SRIVASTAVA'	,
         position: 'Technical Department',
@@ -155,6 +148,14 @@ export const team=[
    linkedIn: 'http://www.linkedin.com/in/rawatshiv',	
     instagram:'www.instagram.com/rawat_shivx28',	
    image: img4,
+},
+{
+    name:'Shiwatvi',
+    position:'Technical Department',
+    mail:'mailto:shiwatvi.20b0211032@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/shiwatvi-dwivedi-0a12a1202',
+    instagram:'https://www.instagram.com/grace_sur_moi/?next=%2F',
+    image:img6,
 },
 {
     name:'Rudransh Jain',

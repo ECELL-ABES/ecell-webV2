@@ -17,7 +17,7 @@ function Team() {
           <h1>Working Committee</h1>
         </div>
       <div className="team-col">
-      <h1 className='text-center'>Mentors</h1>
+      {/* <h1 className='text-center'>Mentors</h1> */}
       <div className='card_container'>
         {
           mentor.map((item)=>{
@@ -46,7 +46,7 @@ function Team() {
         </div> 
         </div>
         <div className="team-col">
-      <h1 className='text-center'>Cordinators</h1>
+      <h1 className='text-center'>Co-Ordinators</h1>
 
         <div className='card_container'>        {
           cordinators.map((item)=>{
