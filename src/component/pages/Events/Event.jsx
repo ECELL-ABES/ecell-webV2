@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactImg from '../../assets/photo-1594122230689-45899d9e6f69.jpg'
 import './event.css'
 
 const TeamData=[
@@ -27,7 +26,7 @@ function Event() {
           <h1>Insights</h1>
         </div>
 
-      <div className='card_container'>
+      <div className='event_card_container'>
         {
           TeamData.map((item)=>{
             return(

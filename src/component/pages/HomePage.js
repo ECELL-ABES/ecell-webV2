@@ -11,6 +11,7 @@ import WindowPeak from './WindowPeak';
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import ErrorPage from './Error/ErrorPage';
 import Contact from './contact/Contact';
+import Massage from './mentorMassage/Massage';
 
 
 function HomePage() {
@@ -40,7 +41,8 @@ function HomePage() {
       <Event/>
       <div className="non-mobile">
         <WindowPeak />
-      </div>      
+      </div> 
+      <Massage/>     
       <Team/>
       <Gallery/>
       {/* <Contact/> */}

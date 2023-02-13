@@ -1,6 +1,5 @@
 import React from 'react'
 import './team.css'
-import ReactImg from '../../assets/photo-1594122230689-45899d9e6f69.jpg'
 import { BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 import { HiMail } from 'react-icons/hi';
