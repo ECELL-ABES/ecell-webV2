@@ -157,12 +157,12 @@ function Navbar() {
             whileTap={{ scale: 0.9 }}
             whileInView={{ opacity: 1 }}
           >
-            <a href="#"
+            <a href="#contact"
               to="/updates"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Updates
+              Get in Touch
             </a>
           </motion.li>
           

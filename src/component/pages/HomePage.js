@@ -12,6 +12,7 @@ import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import ErrorPage from './Error/ErrorPage';
 import Contact from './contact/Contact';
 import Massage from './mentorMassage/Massage';
+// import Headersocials from './Header/Headersocials';
 
 
 function HomePage() {
@@ -36,6 +37,7 @@ function HomePage() {
       :
     (<>
     <Header/>
+    
       <HeroSection/>
       <About/>
       <Event/>
@@ -45,7 +47,7 @@ function HomePage() {
       <Massage/>     
       <Team/>
       <Gallery/>
-      {/* <Contact/> */}
+      <Contact/>
       <Footer/>
       {/* <ErrorPage/> */}
     </>

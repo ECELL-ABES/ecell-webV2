@@ -5,7 +5,7 @@ function Header() {
   return (
     <div>
       <Navbar/>
-    </div>
+      </div>
   )
 }
 

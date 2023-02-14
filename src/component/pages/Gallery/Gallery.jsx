@@ -34,7 +34,7 @@ function Gallery() {
    
   return (
    <>
-    <div className='container max-width' id='gallery'>
+    <div className='container max-width underline' id='gallery'>
         <div className='heading'>
           <h1>Gallery</h1>
         </div>

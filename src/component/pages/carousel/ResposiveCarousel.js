@@ -17,7 +17,7 @@ import img11 from '../../assets/GalleryImage/11.JPG'
 
 function ResposiveCarousel() {
   return (
-    <div>
+        <div>
          <Carousel  autoplay>
                 <div>
                     <img src={img1} />

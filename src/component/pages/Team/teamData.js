@@ -3,22 +3,24 @@ import ParasAgarwal from '../../assets/team/ParasAgarwal.JPG'
 import img1 from '../../assets/team/YashMISHRA.jpg'
 import img2 from '../../assets/team/KamakshiAgarwal.png'
 import img3 from '../../assets/team/ShashankShekharYadav.jpg'
-import img4 from '../../assets/team/ShivangSinghRawat.jpeg'
+import img4 from '../../assets/team/ShivangSinghRawat.jpg'
 import img5 from '../../assets/team/SaurabhSrivastav.jpg'
-import img6 from '../../assets/team/ShiwatviManorama.jpeg'
-import img7 from '../../assets/team/ShoaibAhmed.jpeg'
+import img6 from '../../assets/team/ShiwatviManorama.jpg'
+import img7 from '../../assets/team/ShoaibAhmed.jpg'
 import img8 from '../../assets/team/AnshikaSingh.jpg'
-import img9 from '../../assets/team/AyushiSinghal.jpeg'
+import img9 from '../../assets/team/AyushiSinghal.jpg'
 import img10 from '../../assets/team/SachinSharma.jpeg'
-import img11 from '../../assets/team/DivyanshuGupta.jpeg'
+import img11 from '../../assets/team/DivyanshuGupta.jpg'
 import YashSarin from '../../assets/team/YashSarin.jpg'
 import RudranshJain from '../../assets/team/RudranshJain.jpg'
 import ShubhanshMahawar from '../../assets/team/ShubhanshMahawar.jpg'
-import BhaskarDev from '../../assets/team/BhaskarDev.jpeg'
+import BhaskarDev from '../../assets/team/BhaskarDev.jpg'
 import ShreyashPandey from '../../assets/team/ShreyashPandey.jpg'
 import AdityaKumar from '../../assets/team/AdityaKumar.jpeg'
 import Neelansh from '../../assets/team/Neelansh.jpg'
 import NamanKumar from '../../assets/team/NamanKumar.jpeg'
+import AbhayBansal from '../../assets/team/AbhayBansal.jpeg'
+import SamratRajsharma from '../../assets/team/SamratRajsharma.jpg'
 
 
 
@@ -126,7 +128,14 @@ export const Cordinators=[
         linkedIn: 'https://www.linkedin.com/in/sachin-sharma-728b67201',
         instagram:'https://www.instagram.com/sachin_sharma_24',
         image:img10,
-    },                    			
+    },  
+    {
+        name:'Samrat Raj Sharma',	
+    position:'Marketing & Outreach Coordinator',	
+        mail:'samrat.21b1531033@abes.ac.in',	
+    linkedIn:'http://www.linkedin.com/in/samrat--sharma',
+       image:SamratRajsharma,
+    },                  			
 ]
 
 
@@ -174,7 +183,7 @@ export const team=[
  },
 {
     name:'Bhaskar Dev',
-    position: 'Events and Planning Department',
+    position: 'Marketing And Outreach Department',
     mail: 'mailto:bhaskar.21b0103011@abes.ac.in',
     linkedIn:'https://www.linkedin.com/in/bhaskar-dev-3718bb222',
      image:BhaskarDev,	
@@ -194,12 +203,18 @@ export const team=[
     linkedIn: 'https://www.linkedin.com/in/shreyash-pandey-7064ab202',
     image:ShreyashPandey,
 },
+{
+    name:'Abhay Bansal',
+    position:'Core LinkedIn team',
+    mail:  'mailto:abhay.21b0131071@abes.ac.in',
+    linkedIn: 'https://www.linkedin.com/in/abhay-bansal-4262b8224',
+    image:AbhayBansal,
+},
+
+
 ]
             
-            
-            
-            
-            
+    
             
             
 	        

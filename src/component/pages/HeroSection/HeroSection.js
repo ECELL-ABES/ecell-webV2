@@ -23,6 +23,8 @@ className="hero-section-wrapper bg">
         </div>
         
       </motion.div>
+      <a href="#contact" className='scroll__down non-mobile'>Scroll Down -----{">"} </a>
+    
     </div>
   );
 };
