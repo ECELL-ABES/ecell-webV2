@@ -69,8 +69,8 @@ function Footer() {
                 <div className="col-bottom">
                    <h4 style={{marginBottom:'.2rem'}}>Let's Chat</h4> 
                        <span><a href="mailto:ecell@abes.ac.in"><AiOutlineMail/></a></span>  
-                       <span><a href="https://instagram.com/ecell_abesec?igshid=MDM4ZDc5MmU=" target="_blank"><AiOutlineLinkedin/></a></span>  
-                       <span><a href="https://www.linkedin.com/in/ecell-abes-ec-4a4240172?trk=contact-info" target="_blank"><AiOutlineInstagram/></a></span>  
+                       <span><a href="https://instagram.com/ecell_abesec?igshid=MDM4ZDc5MmU=" target="_blank"><AiOutlineInstagram/></a></span>  
+                       <span><a href="https://www.linkedin.com/in/ecell-abes-ec-4a4240172?trk=contact-info" target="_blank"><AiOutlineLinkedin/></a></span>  
                     </div>
                     </div>
                     </div>
