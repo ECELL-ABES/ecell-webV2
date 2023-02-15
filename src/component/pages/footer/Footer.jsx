@@ -27,7 +27,7 @@ function Footer() {
                         <p>Stay Connected With</p>
                         <h2>Entrepreneurship cell,<br /> ABES Engineering College </h2>
                         <span>
-                        <form className="form-flex" ref={form} onSubmit={handleSubmit}>
+                        <form className="form-flex"  onSubmit={handleSubmit}>
                             <input
                                 type="email"
                                 placeholder="Email"
