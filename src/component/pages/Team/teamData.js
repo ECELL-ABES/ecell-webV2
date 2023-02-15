@@ -75,7 +75,7 @@ export const Cordinators=[
 },
 {
     name: 'Divyanshu Gupta',
-    position: 'Events amd planning Coordinator',
+    position: 'Events And Planning Coordinator',
     mail:'mailto:Divyanshu.20B0311189@abes.ac.in',
     linkedIn:'https://www.linkedin.com/in/divyanshu-gupta-691310202',
     instagram:'https://www.instagram.com/di_we_an_shu.2002',
@@ -83,7 +83,7 @@ export const Cordinators=[
 },
 {
     name:'Kamakshi Agarwal',
-    position: 'Events amd planning Coordinator',
+    position: 'Events And Planning Coordinator',
     mail: 'mailto:Kamakshi.20b1541032@abes.ac.in',
     linkedIn:'https://www.linkedin.com/in/-kamakshi-agarwal/'	,
     instagram:'https://instagram.com/kamakshiii_20',
@@ -168,7 +168,7 @@ export const team=[
 },
 {
     name:'Rudransh Jain',
-    position:'Events amd planning Department',
+    position:'Events And Planning Department',
     mail:'mailto:rudransh.20b0131193@abes.ac.in',
     linkedIn:'https://www.linkedin.com/in/rudransh-jain-113522221/',
     image:RudranshJain,
