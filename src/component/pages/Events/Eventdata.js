@@ -17,7 +17,7 @@ export const eventData=[
     },
     {
       name: 'Udyamita Sammelan',
-      Desc: 'Udyamita Sammelan is another flagship event organized by Ecell-ABESEC, a two-day event that includes startup exhibitions, conferences, investor summit, and more. This event is aimed at providing students with an opportunity to explore entrepreneurship as a career option and learn about key concepts such as idea pitching, marketing, and promotion tactics.Finally, Ecell-ABESEC also organizes the Creator Campus Connect, a dedicated series of events that explores the field of social and digital media creators. This event provides students with an opportunity to learn about different career fields and how they can transform their profession into a successful business venture.',
+      Desc: 'Udyamita Sammelan is another flagship event organized by Ecell-ABESEC, a two-day event that includes startup exhibitions, conferences, investor summit, and more. This event is aimed at providing students with an opportunity to explore entrepreneurship as a career option and learn about key concepts such as idea pitching, marketing, and promotion tactics.',
     },
     {
       name: 'Campus Connect',

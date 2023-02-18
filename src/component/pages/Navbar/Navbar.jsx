@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import Logo1 from "../../assets/logos/ecell_abes.png";
 import Logo2 from "../../assets/logos/INIF_LOGO.png";
 import { motion } from "framer-motion";
-import {CgMenuGridR} from 'react-icons/cg'
+import {GiHamburgerMenu} from 'react-icons/gi'
 import {IoCloseSharp} from 'react-icons/io5';
 import './navbar.css';
 function Navbar() {
@@ -168,7 +168,7 @@ function Navbar() {
           
         </ul>
         <div className="menu-icon" onClick={handleClick}>
-          { click ? <IoCloseSharp /> : <CgMenuGridR /> }
+          { click ? <IoCloseSharp /> : <GiHamburgerMenu /> }
         </div>
       </motion.nav>
     </div>

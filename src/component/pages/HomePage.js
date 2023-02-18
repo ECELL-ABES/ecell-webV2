@@ -11,6 +11,7 @@ import WindowPeak from './WindowPeak';
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import ErrorPage from './Error/ErrorPage';
 import Contact from './contact/Contact';
+import Contactus from './contact/Contactus';
 import Massage from './mentorMassage/Massage';
 // import Headersocials from './Header/Headersocials';
 
@@ -47,7 +48,8 @@ function HomePage() {
       <Massage/>     
       <Team/>
       <Gallery/>
-      <Contact/>
+      {/* <Contact/> */}
+      <Contactus/>
       <Footer/>
       {/* <ErrorPage/> */}
     </>

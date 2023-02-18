@@ -1,6 +1,6 @@
 .container-footer{
     background: var(--bg-secondary);
-    padding: 20px 0;
+    padding: 10px 0;
     margin: 20px 0 0 0;
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
@@ -12,18 +12,19 @@
 .row-upper{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 200px;
+    grid-gap:2rem;
     
 }
 .col-logo{
+    margin:auto;
     width: 250px;
 }
 .col-logo img{
     width: 100%;
     
 }
-.inif img{
-    background: #fff;
+.inif {
+margin:auto;
 }
 .col-upper{
     padding: 10px 30px;
@@ -70,7 +71,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1.5rem;
-    padding: 20px 0 0;
+    /* padding: 20px 0 0; */
     text-align: center;
 }
 .col-bottom{
