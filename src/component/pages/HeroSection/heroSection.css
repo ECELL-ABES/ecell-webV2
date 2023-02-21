@@ -1,14 +1,12 @@
 .hero-section-wrapper {
   position: relative;
-  
-  /* background: ; */
-  /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-  url("../../media/examples/lizard.png"); */
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/GalleryImage/10.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-bottom: 2rem;
+  min-height:100vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .bg{
 background-color: rgba(0,0,0,0.7);

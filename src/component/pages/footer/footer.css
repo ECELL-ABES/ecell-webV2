@@ -154,12 +154,12 @@ li:hover{
     /* ======== MEDIA QUERIES(Small DEVICES)====== */
     
       @media screen and (max-width:600px) {
-        .row-upper-f-f{
+        .row-upper-f{
         grid-template-columns: 1fr;
         gap:1rem;
     }
       
-        .row-bottom{
+        .row-bottom-f{
         grid-template-columns: 1fr;
         gap:1rem;
     }

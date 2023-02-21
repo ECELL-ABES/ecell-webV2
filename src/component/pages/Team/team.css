@@ -4,7 +4,13 @@
     grid-gap: 20px;
     place-content: center;
 }
-
+/* .bg_team{
+  position: relative;
+  background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/bg/_MG_8247.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
 .card__ {
   background-color: var(--bg-secondary);
     width: 250px;

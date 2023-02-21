@@ -12,7 +12,8 @@ import { Cordinators, mentor, team, teamData } from './teamData';
 
 function Team() {
   return (
-    <div className='dcontainer underline max-width' id='teams'>
+    <div className='bg_team'>
+    <div className='dcontainer underline max-width ' id='teams'>
         <div className='space'></div>
         <div className='heading'>
           <h1>Working Committee</h1>
@@ -117,6 +118,7 @@ function Team() {
 </div>
     </div> */}
    
+    </div>
     </div>
   )
 }
