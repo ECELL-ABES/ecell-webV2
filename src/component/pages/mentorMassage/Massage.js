@@ -4,7 +4,8 @@ import MahendraGupta from '../../assets/team/MahendraGupta.JPG'
 
 function Massage() {
   return (
-    <div className='container max-width'>
+    <div className='dcontainer max-width'>
+      <div className='space'></div>
             <div className='heading'>
                 <h1>Message From Mentor</h1></div>
         <div className='massage-container'>

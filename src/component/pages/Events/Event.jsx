@@ -5,11 +5,13 @@ import { eventData } from './Eventdata'
 
 function Event() {
   return (
-    <div className='container max-width underline' id='event'>
+    
+    <div className='dcontainer max-width underline 'id='event'>
+       <div className='space'></div>
         <div className='heading'>
           <h1>Insights</h1>
         </div>
-
+        
       <div className='event_card_container'>
         {
           eventData.map((item)=>{
@@ -22,6 +24,7 @@ function Event() {
                     </p>
                   </div>
               </div>
+              
             )
           }
           )

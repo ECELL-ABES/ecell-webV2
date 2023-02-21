@@ -6,6 +6,18 @@
     align-items: center;
     min-height: 100vh;
   }
+  .bg_event{
+    position: relative;
+    
+    /* background: ; */
+    /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("../../media/examples/lizard.png"); */
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/bg/diarybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-bottom: 2rem; */
+  }
   .contact_p{
     margin-bottom:.5rem;
     color: rgb(190, 190, 190);

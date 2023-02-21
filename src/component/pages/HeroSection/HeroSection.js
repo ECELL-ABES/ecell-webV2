@@ -4,9 +4,7 @@ import "./heroSection.css";
 
 const HeroSection = () => {
   return (
-<div 
-  
-className="hero-section-wrapper bg">
+<div className="hero-section-wrapper bg">
         <motion.div 
         initial={{y:-500}}
         animate={{y:0}}
@@ -16,7 +14,7 @@ className="hero-section-wrapper bg">
         <div 
         
         className="hero-heading"style={{letterSpacing: ".1rem"}}>
-          Welcome To Entrepreneurship Cell
+          Welcome To<br/> Entrepreneurship Cell
         </div>
         <div className="hero-subheading" style={{letterSpacing: ".2rem"}}>
           ABES Engineering college, Ghaziabad

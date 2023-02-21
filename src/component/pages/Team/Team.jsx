@@ -12,7 +12,8 @@ import { Cordinators, mentor, team, teamData } from './teamData';
 
 function Team() {
   return (
-    <div className='container underline max-width' id='teams'>
+    <div className='dcontainer underline max-width' id='teams'>
+        <div className='space'></div>
         <div className='heading'>
           <h1>Working Committee</h1>
         </div>
@@ -22,12 +23,12 @@ function Team() {
         {
           mentor.map((item)=>{
             return(
-              <div className='card'>
-                <div className='cardImg'>
+              <div className='card__'>
+                <div className='card__Img'>
                   <img src={item.image} />
-                  <div className='cardBody'>
-                    <h2 className='cardTitle'>{item.name}</h2>
-                    <p className='cardText'>
+                  <div className='card__Body'>
+                    <h2 className='card__Title'>{item.name}</h2>
+                    <p className='card__Text'>
                       {item.position}
                     </p>
                     <div className="icon">
@@ -51,12 +52,12 @@ function Team() {
         <div className='card_container'>        {
           Cordinators.map((item)=>{
             return(
-              <div className='card'>
-                <div className='cardImg'>
+              <div className='card__'>
+                <div className='card__Img'>
                   <img src={item.image} />
-                  <div className='cardBody'>
-                    <h2 className='cardTitle'>{item.name}</h2>
-                    <p className='cardText'>
+                  <div className='card__Body'>
+                    <h2 className='card__Title'>{item.name}</h2>
+                    <p className='card__Text'>
                       {item.position}
                     </p>
                     <div className="icon">
@@ -80,12 +81,12 @@ function Team() {
         <div className='card_container'>        {
           team.map((item)=>{
             return(
-              <div className='card'>
-                <div className='cardImg'>
+              <div className='card__'>
+                <div className='card__Img'>
                   <img src={item.image} />
-                  <div className='cardBody'>
-                    <h2 className='cardTitle'>{item.name}</h2>
-                    <p className='cardText'>
+                  <div className='card__Body'>
+                    <h2 className='card__Title'>{item.name}</h2>
+                    <p className='card__Text'>
                       {item.position}
                     </p>
                     <div className="icon">

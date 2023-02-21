@@ -31,7 +31,8 @@ function Contactus() {
 
 
   return (
-    <div id='contact'>
+    <div className='bg_event' id='contact'>
+        <div className='space'></div>
     <div className='heading'>
         <h1>Get in Touch</h1>
       </div>

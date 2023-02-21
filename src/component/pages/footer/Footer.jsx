@@ -21,9 +21,9 @@ function Footer() {
 
   return (
     <section id='footer'>
-        <div className='container container-footer'>
-            <div className='row-upper'>
-                <div className='col-upper'>
+        <div className='dcontainer container-footer'>
+            <div className='row-upper-f'>
+                <div className='col-upper-f'>
                         <p>Stay Connected With</p>
                         <h2>Entrepreneurship cell,<br /> ABES Engineering College </h2>
                         <span>
@@ -36,7 +36,7 @@ function Footer() {
                                 onChange={handleChange}
                                 required
                             />
-                            <button className="subscribe-btn" type="submit">
+                            <button className="subscribe-btn-f" type="submit">
                                 <AiOutlineArrowRight/>
                             </button>
                         </form>
@@ -46,14 +46,14 @@ function Footer() {
                         <img src={logo2} alt="" />
                         </div>
                 </div>           
-             <div className="row-bottom">
-                <div className="col-bottom img1">
+             <div className="row-bottom-f">
+                <div className="col-bottom-f img1">
                 <div className='col-logo'>
                         <img src={logo1} alt="" />
                         </div>
                     {/* <h4>Fueling Innovative Business Ideas to Life.</h4> */}
                     </div>
-                <div className="col-bottom">
+                <div className="col-bottom-f">
                     <h4>Quick Links</h4>
                     <ul className="permalinks">
                         <li><a href="#">Home</a></li>
@@ -64,11 +64,11 @@ function Footer() {
                         <li><a href="#contact">Contact Us</a></li>
                         </ul>
                     </div>
-                <div className="col-bottom">
+                <div className="col-bottom-f">
                     <h4>Terms and Conditions</h4>
                     <p style={{color:'rgb(190, 190, 190)'}}>By using this website, you agree to our Terms and Conditions, Privacy Policy and Cookie Policy.</p>
                     </div>
-                <div className="col-bottom">
+                <div className="col-bottom-f">
                    <h4 style={{marginBottom:'.2rem'}}>Let's Chat</h4> 
                        <span><a href="mailto:ecell@abes.ac.in"><AiOutlineMail/></a></span>  
                        <span><a href="https://instagram.com/ecell_abesec?igshid=MDM4ZDc5MmU=" target="_blank"><AiOutlineInstagram/></a></span>  

@@ -20,7 +20,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: var(--bg-primary);;
   /* color: #ffffd8; */
-  color: #ffe570;
+  color: var(--primary-text);
 }
 * {
   margin: 0;

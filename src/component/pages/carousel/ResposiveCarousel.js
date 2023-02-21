@@ -13,36 +13,47 @@ import img7 from '../../assets/GalleryImage/7.JPG'
 import img8 from '../../assets/GalleryImage/8.JPG'
 import img9 from '../../assets/GalleryImage/9.JPG'
 import img10 from '../../assets/GalleryImage/10.JPG'
-import img11 from '../../assets/GalleryImage/11.JPG'
+import img16 from '../../assets/GalleryImage/16.JPG'
 
 function ResposiveCarousel() {
   return (
-        <div>
-         <Carousel  autoplay>
-                <div>
-                    <img src={img1} />
-                </div>
-                <div>
-                    <img src={img15} />
-                    
-                </div>
-                <div>
-                    <img src={img14} />
-                    
-                </div>
-                <div>
-                    <img src={img5} />
-                    
-                </div>
-                <div>
-                    <img src={img11} />
-                   
-                </div>
-                <div>
-                    <img src={img21} />
-                    </div>
-            </Carousel>
-
+    <div className='dcontainer max-width'>
+     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={img1} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={img14} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={img3} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={img16} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={img5} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={img21} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={img10} className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src={img9} className="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>    
     </div>
   )
 }

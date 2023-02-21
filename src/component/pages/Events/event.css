@@ -4,6 +4,7 @@
     grid-gap: 20px;
     /* max-width: 85vw; */
 }
+
 .event_card {
   background-color: var(--bg-secondary);
   width: auto;

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import  {  useEffect } from 'react';
 import { Link, NavLink } from "react-router-dom";
 import Logo1 from "../../assets/logos/ecell_abes.png";
 import Logo2 from "../../assets/logos/INIF_LOGO.png";
@@ -11,10 +12,31 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const [isSolidNav, setIsSolidNav] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const height = document.querySelector('.navbar').clientHeight;
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (scrollTop >= height - 40) {
+        setIsSolidNav(true);
+      } else {
+        setIsSolidNav(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div>
       <motion.nav
-        className="navbar"
+        className={`navbar ${isSolidNav ? 'solid-nav' : ''}`}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -28,7 +50,7 @@ function Navbar() {
           alt=""
           onClick={closeMobileMenu}
         /></a></div>
-      <div className="nav-logo-div2"><a href="#">
+      <div className="nav-logo-div2"><a href="http://inurture.net/">
         <img
           className="log_img"
           src={Logo2}
@@ -37,11 +59,7 @@ function Navbar() {
           onClick={closeMobileMenu}
         /></a></div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          {/* <li className="nav-item">
-            <NavLink to="/" className="nav-links" onClick={closeMobileMenu}>
-              Home
-            </NavLink>
-          </li> */}
+          
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
@@ -59,15 +77,7 @@ function Navbar() {
               Home
             </a>
           </motion.li>
-          {/* <li className="nav-item">
-            <NavLink
-              to="/gallery"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Gallery
-            </NavLink>
-          </li> */}
+
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
@@ -120,16 +130,7 @@ function Navbar() {
               Our Team
             </a>
           </motion.li>
-          {/* <li className="nav-item">
-            <a href="#" to="/team" className="nav-links" onClick={closeMobileMenu}>
-              Our Team
-            </a>
-          </li> */}
-          {/* <li className="nav-item">
-            <a href="#" to="/faq" className="nav-links" onClick={closeMobileMenu}>
-              Faq's
-            </a>
-          </li> */}
+          
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
@@ -158,7 +159,6 @@ function Navbar() {
             whileInView={{ opacity: 1 }}
           >
             <a href="#contact"
-              to="/updates"
               className="nav-links"
               onClick={closeMobileMenu}
             >
