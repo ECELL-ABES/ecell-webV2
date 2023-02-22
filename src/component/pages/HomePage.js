@@ -13,6 +13,7 @@ import ErrorPage from './Error/ErrorPage';
 import Contact from './contact/Contact';
 import Contactus from './contact/Contactus';
 import Massage from './mentorMassage/Massage';
+import Shows from './Shows/Shows';
 // import Headersocials from './Header/Headersocials';
 
 
@@ -41,6 +42,7 @@ function HomePage() {
     
       <HeroSection/>
       <About/>
+      <Shows/>
       <Event/>
       <div className="non-mobile">
         <WindowPeak />

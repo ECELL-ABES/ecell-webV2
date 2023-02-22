@@ -27,6 +27,7 @@
 .massage-text{
     margin: 2rem;
     color: rgb(190, 190, 190);
+    text-align: justify;
 }
 
  /* ======== MEDIA QUERIES(MEDIUM DEVICES)====== */
