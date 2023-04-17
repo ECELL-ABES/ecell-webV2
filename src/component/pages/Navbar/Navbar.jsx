@@ -36,6 +36,7 @@ function Navbar() {
   return (
     <div>
       <motion.nav
+        // className={`navbar ${isSolidNav ? 'solid-nav' : ''}`}
         className={`navbar ${isSolidNav ? 'solid-nav' : ''}`}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

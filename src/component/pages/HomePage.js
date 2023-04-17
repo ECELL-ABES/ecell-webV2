@@ -44,9 +44,9 @@ function HomePage() {
       <About/>
       <Shows/>
       <Event/>
-      <div className="non-mobile">
+      {/* <div className="non-mobile">
         <WindowPeak />
-      </div> 
+      </div>  */}
       <Massage/>     
       <Team/>
       <Gallery/>

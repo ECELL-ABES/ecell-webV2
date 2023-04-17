@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion"
 import "./heroSection.css";
+import bg_hero from '../../assets/bg/bg_hero.png'
 
 const HeroSection = () => {
   return (
@@ -14,15 +15,16 @@ const HeroSection = () => {
         <div 
         
         className="hero-heading"style={{letterSpacing: ".1rem"}}>
-          Welcome To<br/> Entrepreneurship Cell
+          Welcome To<br/> <span className="entrepreneurship"> Entrepreneurship</span> Cell
         </div>
         <div className="hero-subheading" style={{letterSpacing: ".2rem"}}>
           ABES Engineering college, Ghaziabad
         </div>
         
       </motion.div>
-      <a href="#contact" className='scroll__down non-mobile'>Scroll Down -----{">"} </a>
-    
+      <div className="bg_hero">
+        <img src={bg_hero} alt="" />
+      </div>
     </div>
   );
 };

@@ -1,18 +1,43 @@
 import React from 'react'
 import './event.css'
 import { eventData } from './Eventdata'
+import { BiLeaf } from 'react-icons/bi';
+import leaf from "../../assets/logos/leaf.png"
 
 
 function Event() {
   return (
-    
-    <div className='dcontainer max-width underline 'id='event'>
-       <div className='space'></div>
+    <div className="events_cont">
+     
+    <div className='dcontainer max-width underline  'id='event'>
+    <div className='space'></div>
         <div className='heading'>
-          <h1>Insights</h1>
+          <h1>Events</h1>
+          <p className="text-center contact_p"> Join Us for an Exciting Lineup!</p>
         </div>
         
       <div className='event_card_container'>
+      { eventData.map((item)=>{
+        return(
+    <div className="flip-card">
+         <div className="flip-card-inner">
+            <div className="flip-card-front">
+                <div className='cardiconfront'>
+                  <img src={leaf} alt="" />
+                  </div>
+                <h1>{item.name}</h1>
+              {/* <img src="img_avatar.png" alt="Avatar" style={{width:'300px',height:'300px'}}/> */}
+            </div>
+            <div className="flip-card-back">
+              <p>{item.Desc}</p>
+            </div>
+          </div>   
+</div>
+        )
+    })
+  }
+        </div> 
+      {/* <div className='event_card_container'>
         {
           eventData.map((item)=>{
             return(
@@ -30,6 +55,7 @@ function Event() {
           )
 
         }
+        </div>  */}
     {/* <div className='card'>
     <div className='cardImg'>
   <img src={ReactImg} />
@@ -43,7 +69,8 @@ function Event() {
 </div>
     </div> */}
     
-   </div> 
+   
+    </div>
     </div>
   )
 }

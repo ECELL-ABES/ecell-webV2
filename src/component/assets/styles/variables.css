@@ -1,9 +1,11 @@
 :root {
-  --bg-primary: #000;    
-  --text: #f8f8f8;
-  --primary-text: #ffe570;
-  /* --mobile-box-shadow: #b0b0b229 0px -10px 3px 0px inset,
-    #0000003d 2px 3px 3px 0.5px inset; */
+  --bg-primary: #0e1628;    
+  --text: #000;
+  --text1: rgb(30, 30, 30);
+  --text2: #FFBD59;
+  --text3: #48719e;
+  --text4: #e9e100;
+  --primary-text: #48719e;
   --bg-secondary: #2b2b2b;
   --white-bg: #f8f8f8;
   --bg-green: #027757;
