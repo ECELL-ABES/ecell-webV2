@@ -48,7 +48,16 @@
         grid-template-columns: 1fr 1fr;
         gap:1.2rem
        
-    }    
+    }  
+    .img_mentor_bg{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        z-index: -2;
+        top: 25rem;
+        right: 3rem;
+    
+    }  
      
 } 
     
