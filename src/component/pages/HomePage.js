@@ -44,14 +44,12 @@ function HomePage() {
       <About/>
       <Shows/>
       <Event/>
-      {/* <div className="non-mobile">
-        <WindowPeak />
-      </div>  */}
+      
       <Massage/>     
-      <Team/>
-      <Gallery/>
+      {/* <Team/> */}
+      {/* <Gallery/> */}
       {/* <Contact/> */}
-      <Contactus/>
+      {/* <Contactus/> */}
       <Footer/>
       {/* <ErrorPage/> */}
     </>

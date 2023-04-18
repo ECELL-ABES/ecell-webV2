@@ -1,7 +1,7 @@
 import React from 'react'
 import'./massage.css'
 import MahendraGupta from '../../assets/team/MahendraGupta.JPG'
-
+import img_mentor_bg from '../../assets/bg/social_bg_mentor.png'
 function Massage() {
   return (
     <div className='dcontainer max-width'>
@@ -12,7 +12,7 @@ function Massage() {
                 <div className='massage-img'> 
                     <img src={MahendraGupta} alt="" />
                 </div>
-                <div className='massage-text'>
+                <div className='massage-text he'>
                     <p>
                         “The need to act is clear. Entrepreneurs have the power to create jobs and drive growth –
                         but first we need to give them the tools and the environment that will enable them to
@@ -47,7 +47,11 @@ function Massage() {
                         </b>
                     </p>
                     </div>
+                    <div>
+                  <img src={img_mentor_bg} alt="" className='img_mentor_bg' />
                 </div>
+                </div>
+               
     </div>
   )
 }

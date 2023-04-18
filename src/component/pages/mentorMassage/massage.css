@@ -29,6 +29,17 @@
     color: var(--text1);
     font-weight: 500;
     text-align: justify;
+    /* position: relative; */
+}
+.he{
+    position: relative;
+} 
+.img_mentor_bg{
+    position: absolute;
+    z-index: -2;
+    top: -2rem;
+    right: -5rem;
+    
 }
 
  /* ======== MEDIA QUERIES(MEDIUM DEVICES)====== */
