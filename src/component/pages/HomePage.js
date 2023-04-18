@@ -42,10 +42,9 @@ function HomePage() {
     
       <HeroSection/>
       <About/>
+      <Massage/>     
       <Shows/>
       <Event/>
-      
-      <Massage/>     
       {/* <Team/> */}
       {/* <Gallery/> */}
       {/* <Contact/> */}
