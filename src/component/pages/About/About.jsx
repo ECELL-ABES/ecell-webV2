@@ -18,7 +18,7 @@ function About() {
         <div className="mission_vision">
             <div className="moto">
               <div className="moto_img">
-              <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_Twpva09nPz.json" background="transparent"  speed="1"  style={{width: "150px", height: "150px"}} loop  autoplay></lottie-player>
+              <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_iqbweiiz.json" background="transparent"  speed="1"  style={{width: "150px", height: "150px"}} loop  autoplay></lottie-player>
               </div>
               <div className="moto_text">
                 <h1 className='text-center'>Mindset</h1>
@@ -46,7 +46,7 @@ function About() {
                 </div>
             <div className="moto">
               <div className="moto_img">
-              <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_Twpva09nPz.json" background="transparent"  speed="1"  style={{width: "150px", height: "150px"}}loop  autoplay></lottie-player>
+              <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ieemc0fs.json" background="transparent"  speed="1"  style={{width: "150px", height: "150px"}}loop  autoplay></lottie-player>
               </div>
               <div className="moto_text">
                 <h1 className='text-center'>Vision </h1>
