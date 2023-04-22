@@ -1,9 +1,13 @@
 import React from 'react'
 import './about.css'
+import OnScrollReveal from '../../onscrolleffect/OnScrollReveal'
+
 
 function About() {
   return (
+      <OnScrollReveal>
     <div className='dcontainer underline max-width' id='about'>
+
       <div className='space'></div>
         <div className='heading'>
             <h1 className='text-center'>Who We Are!</h1>
@@ -59,6 +63,7 @@ function About() {
            
         </div>
     </div>
+      </OnScrollReveal>
   )
 }
 

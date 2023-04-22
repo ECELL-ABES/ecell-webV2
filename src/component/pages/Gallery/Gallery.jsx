@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import OnScrollReveal from '../../onscrolleffect/OnScrollReveal';
 
 import img1 from '../../assets/GalleryImage/1.JPG'
 import img2 from '../../assets/GalleryImage/2.JPG'
@@ -47,12 +48,14 @@ function Gallery() {
             >
                 <Masonry gutter='10px'>
                     {images.map((image, i) => (
+                        <OnScrollReveal>
                         <img
                             key={i}
                             src={image}
                             style={{width: "100%", display: "block"}}
                             alt=""
                         />
+                        </OnScrollReveal>
                     ))}
                 </Masonry>
             </ResponsiveMasonry>

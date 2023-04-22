@@ -1,9 +1,11 @@
 import React from 'react'
 import'./massage.css'
+import OnScrollReveal from '../../onscrolleffect/OnScrollReveal';
 import MahendraGupta from '../../assets/team/MahendraGupta.JPG'
 import img_mentor_bg from '../../assets/bg/social_bg_mentor.png'
 function Massage() {
   return (
+    <OnScrollReveal>
     <div className='dcontainer max-width'>
       <div className='space'></div>
             <div className='heading'>
@@ -53,6 +55,7 @@ function Massage() {
                 </div>
                
     </div>
+    </OnScrollReveal>
   )
 }
 

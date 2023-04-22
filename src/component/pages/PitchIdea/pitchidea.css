@@ -1,0 +1,36 @@
+.pitchcontainer{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 20px;
+}
+.pitchidea_row{
+    position: relative;
+}
+.pitchidea_row p {
+    
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.pitchidea_row p{
+    margin: 2rem auto;
+}
+.button-pitchidea{
+    /* position: absolute; */
+    margin: 0 1rem;
+    background-color: var(--primary-text);
+    color: #fff;
+    padding: .8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    /* bottom: 0; */
+    float:left;
+}

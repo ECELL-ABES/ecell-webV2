@@ -14,32 +14,24 @@ import Contact from './contact/Contact';
 import Contactus from './contact/Contactus';
 import Massage from './mentorMassage/Massage';
 import Shows from './Shows/Shows';
+import PitchIdea from './PitchIdea/PitchIdea';
+import { Card } from '@chakra-ui/react';
+import TCard from './card/TCard';
 // import Headersocials from './Header/Headersocials';
 
 
 function HomePage() {
 
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
-  }, []);
+  // const [loading, setLoading] = useState(false);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 3000);
+  // }, []);
 
   return (
-    <>{
-      loading? 
-      <div style={{display: 'flex', 
-      justifyContent: 'center',
-       alignItems: 'center',
-       height:'100vh'}}>
-      <ClimbingBoxLoader color="#36d7b7" />
-      </div>
-      :
-    (<>
-    <Header/>
-    
+    <>
       <HeroSection/>
       <About/>
       <Massage/>     
@@ -49,10 +41,10 @@ function HomePage() {
       {/* <Gallery/> */}
       {/* <Contact/> */}
       {/* <Contactus/> */}
-      <Footer/>
+      <PitchIdea/>
+      {/* <TCard/> */}
+      {/* <Footer/> */}
       {/* <ErrorPage/> */}
-    </>
-    )}
     </>
   );
 }

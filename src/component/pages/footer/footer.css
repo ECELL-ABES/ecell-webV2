@@ -1,5 +1,5 @@
 .container-footer{
-    background: var(--bg-secondary);
+    background: #fff;
     padding: 10px 0;
     margin: 20px 0 0 0;
     border-top-right-radius: 2rem;
@@ -8,7 +8,7 @@
 }
 .container-footer a{
     text-decoration: none;
-    color: #fff;
+    color: var(--text1);
 }
 .row-upper-f{
     display:grid;
@@ -35,17 +35,26 @@ margin:auto;
     border: none;
     background-color: var(--primary-text);
     font-size: 18px;
+    position: absolute;
+    top: 17px;
+    right: 0;
     /* padding: 3px; */
     /* color: #fff; */
 }
-
+.col-upper-f span .form-flex{
+    justify-content: space-between;
+    border-bottom: 2px solid var(--text1);
+    padding: 0 0 10px 0;
+    position: relative;
+}
 .col-upper-f input{
     width: 80%;
     margin-top: 18px;
     border: none;
-    background: var(--bg-secondary);
+        background: #fff;
     font-size: 18px;
-    color: rgb(190, 190, 190);
+    /* color: rgb(190, 190, 190); */
+    color: var(--text1);
 }
 .col-upper-f input:focus{
     outline: none;
@@ -55,12 +64,12 @@ margin:auto;
     padding: .2rem;
 }
 
-.col-upper-f span .form-flex{
+/* .col-upper-f span .form-flex{
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid white;
     padding: 0 0 10px 0;
-}
+} */
 .col-upper-f p{
     font-size: .7rem;
 }
@@ -110,6 +119,14 @@ li:hover{
     margin: .3rem;
     
 }
+.col-bottom-f p  span{
+    /* padding: 10px 0; */
+    font-size: .7rem;
+}
+.col-bottom-f p ul li{
+    margin: 1rem auto;
+}
+
 @media screen and (max-width:1024px) {
     .row-upper-f{
         grid-template-columns: 1fr 1fr;
@@ -135,19 +152,24 @@ li:hover{
     .col-upper-f input{
         margin-top: 1rem;
         border: none;
-        background: var(--bg-secondary);
+        background:#fff;
         font-size: 12px;
-        color: #fff;
+        color: var(--text1);
     }
     .col-upper-f span{
         width: 70%;
     }
     .col-upper-f span .form-flex{
         justify-content: space-between;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid var(--text1);
         padding: 0 0 10px 0;
     }
-    
+    .subscribe-btn-f{
+     top: 10px;
+        right: 0;
+        /* padding: 3px; */
+        /* color: #fff; */
+    }
 
 } 
     
@@ -163,5 +185,10 @@ li:hover{
         grid-template-columns: 1fr;
         gap:1rem;
     }
-
+    .subscribe-btn-f{
+        top: 10px;
+           right: 0;
+           /* padding: 3px; */
+           /* color: #fff; */
+       }
     }

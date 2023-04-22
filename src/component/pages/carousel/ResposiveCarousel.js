@@ -55,6 +55,8 @@ function ResposiveCarousel() {
   </button>
 </div>    
     </div>
+
+    //code a auto slider carousel?
   )
 }
 

@@ -3,19 +3,19 @@ import './event.css'
 import { eventData } from './Eventdata'
 import { BiLeaf } from 'react-icons/bi';
 import leaf from "../../assets/logos/leaf.png"
-
+import OnScrollReveal from '../../onscrolleffect/OnScrollReveal';
 
 function Event() {
   return (
-    <div className="events_cont">
-     
+    
+    <OnScrollReveal> 
     <div className='dcontainer max-width underline  'id='event'>
     <div className='space'></div>
         <div className='heading'>
           <h1>Events</h1>
           <p className="text-center contact_p"> Join Us for an Exciting Lineup!</p>
         </div>
-        
+        <div className="events_cont">    
       <div className='event_card_container'>
       { eventData.map((item)=>{
         return(
@@ -72,6 +72,7 @@ function Event() {
    
     </div>
     </div>
+    </OnScrollReveal>
   )
 }
 

@@ -66,7 +66,16 @@ function Footer() {
                     </div>
                 <div className="col-bottom-f">
                     <h4>Terms and Conditions</h4>
-                    <p style={{color:'rgb(190, 190, 190)'}}>By using this website, you agree to our Terms and Conditions, Privacy Policy and Cookie Policy.</p>
+                    <p style={{color:'#000'}}>
+                        
+                            This website is developed and managed by the <span style={{color:'#36d7b7', fontWeight:"800"}}> Department of Digital Infrastructure and Development, E-cell, ABES Engineering College.</span>
+                            <br /><br />
+                            By using this website, you agree to our Terms and Conditions, Privacy Policy and Cookie Policy.
+                            <br /><br />
+                            <span style={{fontSize:'.8rem', fontWeight:'800'}}>
+                            © Copyright @ E-Cell ABESEC 2023
+                            </span>
+                        </p>
                     </div>
                 <div className="col-bottom-f">
                    <h4 style={{marginBottom:'.2rem'}}>Let's Chat</h4> 

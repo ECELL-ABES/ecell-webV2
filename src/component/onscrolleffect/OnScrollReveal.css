@@ -1,0 +1,9 @@
+.on-scroll-reveal {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .on-scroll-reveal.is-visible {
+    opacity: 1;
+  }
+  

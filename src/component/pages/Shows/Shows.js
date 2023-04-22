@@ -2,10 +2,11 @@ import React from "react";
 import "./shows.css";
 import { Tes } from "./showdata";
 import img1 from "../../assets/Tes/13.jpg";
+import OnScrollReveal from "../../onscrolleffect/OnScrollReveal";
 
 function Shows() {
   return (
-    <div className="">
+    <OnScrollReveal className="">
     <div className="dcontainer show_bg" id="shows">
       <div className="space"></div>
       <div className="heading">
@@ -81,7 +82,7 @@ function Shows() {
         </div>
       </div>
     </div>
-    </div>
+    </OnScrollReveal>
   );
 }
 

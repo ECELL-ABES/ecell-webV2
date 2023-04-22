@@ -71,14 +71,14 @@ function Navbar() {
             whileTap={{ scale: 0.9 }}
             whileInView={{ opacity: 1 }}
           >
-            <a href="#"
+              <Link to='/'
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Home
-            </a>
+              </Link>
           </motion.li>
-
+{/* 
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
@@ -89,13 +89,13 @@ function Navbar() {
             whileTap={{ scale: 0.9 }}
             whileInView={{ opacity: 1 }}
           >
-            <a href="#about"
+              <Link to='/' href="#about"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               About Us
-            </a>
-          </motion.li>
+              </Link>
+          </motion.li> */}
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
@@ -106,12 +106,12 @@ function Navbar() {
             whileTap={{ scale: 0.9 }}
             whileInView={{ opacity: 1 }}
           >
-            <a href="#event"
+              <Link to='/events' 
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Insights
-            </a>
+              </Link>
           </motion.li>
           
           <motion.li
@@ -124,12 +124,29 @@ function Navbar() {
             whileTap={{ scale: 0.9 }}
             whileInView={{ opacity: 1 }}
           >
-            <a href="#teams"
+              <Link to='/meetourteam' 
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Our Team
-            </a>
+              Meet Our Team
+              </Link>
+          </motion.li>
+          <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
+              <Link to='/pastspeaker' 
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Past Speakers
+              </Link>
           </motion.li>
           
           <motion.li
@@ -142,12 +159,12 @@ function Navbar() {
             whileTap={{ scale: 0.9 }}
             whileInView={{ opacity: 1 }}
           >
-            <a href="#gallery"
+              <Link to='/gallery'
               className="nav-links"
               onClick={closeMobileMenu}
             >
                 Gallery
-            </a>
+              </Link>
           </motion.li>
           <motion.li
             className="nav-item"
@@ -159,12 +176,12 @@ function Navbar() {
             whileTap={{ scale: 0.9 }}
             whileInView={{ opacity: 1 }}
           >
-            <a href="#contact"
+              <Link to='/contactus' 
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Get in Touch
-            </a>
+              </Link>
           </motion.li>
           
         </ul>
