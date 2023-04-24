@@ -1,12 +1,48 @@
 import React from 'react'
 import './about.css'
 import OnScrollReveal from '../../onscrolleffect/OnScrollReveal'
+ 
 
+const moto =[
+  {
+    name: "Mindset",
+    image: "https://assets2.lottiefiles.com/packages/lf20_iqbweiiz.json",
+    text: <div>
+       <ul>
+                  <li>Embrace creativity, risk-taking, innovation, and learning from mistakes as part of our rich mindset.</li>
+                  <li>Question the status quo and consider alternative solutions to drive change.</li>
+                  <li>Drive towards making a meaningful impact and changing the world with our ideas.</li>
+                  <li>Embrace a culture of continuous learning and improvement, valuing creativity and innovation.</li>
+                  </ul>
+    </div>
+   },
+  {
+    name: "Mission",
+    image: "https://assets6.lottiefiles.com/packages/lf20_Twpva09nPz.json",
+    text: <div>
+      <ul>
+                <li>Inspire and motivate students to pursue their entrepreneurial dreams! </li>
+                <li>Empower students with skills and knowledge for entrepreneurship success!</li>
+                <li>Foster connections with mentors, investors, experts in the ecosystem!</li>
+                <li>Support and celebrate the achievements and successes of student entrepreneurs</li></ul>
+    </div>
+  },
+  {
+    name: "Vision",
+    image:'https://assets1.lottiefiles.com/packages/lf20_ieemc0fs.json',
+    text: <div>
+      <ul>
+                <li>Create a vibrant and dynamic entrepreneurial culture on campus and beyond! </li>
+                <li>Nurture and develop a pool of talented and innovative entrepreneurs who can contribute to the economic and social development of the nation. </li>
+                <li>Become a leading entrepreneurship cell that sets benchmarks for excellence and impact! </li></ul>
+    </div>
+  }
+]
 
 function About() {
   return (
       <OnScrollReveal>
-    <div className='dcontainer underline max-width' id='about'>
+    <div className='dcontainer  max-width' id='about'>
 
       <div className='space'></div>
         <div className='heading'>
@@ -17,10 +53,29 @@ function About() {
             </p>
 
         </div>
-
+          </div>
 
         <div className="mission_vision">
-            <div className="moto">
+
+          {
+            moto.map((item)=>{
+              return(
+                <div className="moto">
+              <div className="moto_img">
+              <lottie-player src={item.image} background="transparent"  speed="1"  style={{width: "150px", height: "150px"}} loop  autoplay></lottie-player>
+              </div>
+              <div className="moto_text">
+                <h1 className='text-center'>{item.name}</h1>
+                <p className='text-center text list'>
+                  {item.text}
+                </p>
+                </div>
+                </div>
+              )
+            }
+            )
+          }
+            {/* <div className="moto">
               <div className="moto_img">
               <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_iqbweiiz.json" background="transparent"  speed="1"  style={{width: "150px", height: "150px"}} loop  autoplay></lottie-player>
               </div>
@@ -31,7 +86,9 @@ function About() {
                   <li>Embrace creativity, risk-taking, innovation, and learning from mistakes as part of our rich mindset.</li>
                   <li>Question the status quo and consider alternative solutions to drive change.</li>
                   <li>Drive towards making a meaningful impact and changing the world with our ideas.</li>
-                  <li>Embrace a culture of continuous learning and improvement, valuing creativity and innovation.</li></ul></p>
+                  <li>Embrace a culture of continuous learning and improvement, valuing creativity and innovation.</li>
+                  </ul>
+                  </p>
                 </div>
                 </div>
 
@@ -59,10 +116,9 @@ function About() {
                 <li>Nurture and develop a pool of talented and innovative entrepreneurs who can contribute to the economic and social development of the nation. </li>
                 <li>Become a leading entrepreneurship cell that sets benchmarks for excellence and impact! </li></ul></p>
                 </div>
-                </div>
+                </div> */}
            
         </div>
-    </div>
       </OnScrollReveal>
   )
 }

@@ -11,13 +11,15 @@
     font-size: 1.2rem;
     font-weight: 500;
     color: #000;
-    margin: 0;
-    padding: 0;
     text-align: justify;
 }
 
 .pitchidea_row p{
     margin: 2rem auto;
+}
+.lottie-player_pitch{
+    width: 500px; 
+    height: 500px;
 }
 .button-pitchidea{
     /* position: absolute; */
@@ -31,6 +33,35 @@
     font-weight: 500;
     cursor: pointer;
     transition: 0.3s;
-    /* bottom: 0; */
-    float:left;
+    /* top: -20px; */
+    /* float:left; */
+    transform: translateX(-50%);
 }
+
+  /* ======== MEDIA QUERIES(MEDIUM DEVICES)====== */
+  @media screen and (max-width:1024px) {
+    .pitchcontainer{
+        grid-template-columns: 1fr 1fr;
+        gap:1.2rem
+       
+    }  
+    .lottie-player_pitch{
+        width: 300px; 
+        height: 300px;
+    }  
+     
+} 
+    
+    /* ======== MEDIA QUERIES(Small DEVICES)====== */
+    
+      @media screen and (max-width:600px) {
+    .pitchcontainer{
+        grid-template-columns: 1fr;
+        gap:1rem;
+    }
+    .lottie-player_pitch{
+        width: 300px; 
+        height: 300px;
+    }
+
+    }
