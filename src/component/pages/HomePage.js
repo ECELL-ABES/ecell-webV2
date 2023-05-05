@@ -36,7 +36,7 @@ function HomePage() {
       <About/>
       <Massage/>     
       <Shows/>
-      <Event/>
+      {/* <Event/> */}
       {/* <Team/> */}
       {/* <Gallery/> */}
       {/* <Contact/> */}

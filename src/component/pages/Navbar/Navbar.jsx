@@ -110,7 +110,7 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Insights
+              Events
               </Link>
           </motion.li>
           

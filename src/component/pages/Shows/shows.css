@@ -18,6 +18,12 @@
     
   }
   
+  .show_slide{
+    display: flex;
+    justify-content: center;
+    
+  }
+
 .content_show p{
     margin: 2rem;
     color: rgb(190, 190, 190);

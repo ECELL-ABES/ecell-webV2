@@ -22,9 +22,9 @@ function Shows() {
               className="carousel slide div_outer"
               data-bs-ride="carousel"
             >
-              <div className="div_inner1"></div>
+              {/* <div className="div_inner1"></div>
               <div className="div_inner2"></div>
-              <div className="div_inner3"></div>
+              <div className="div_inner3"></div> */}
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img src={img1} className="d-block w-100" alt="..." />
