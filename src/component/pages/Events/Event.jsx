@@ -20,7 +20,7 @@ function Event() {
               <h1>Events</h1>
           </div>
           <div className="event_heroImg">
-            <img src={eventbg} alt="" />
+            <img src={eventbg} alt="" className='non-mobile' />
           </div>
         </div>
         <div className="space"></div>
