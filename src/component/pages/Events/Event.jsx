@@ -16,31 +16,38 @@ function Event() {
       <div className="space"></div>
         <div className="event_herosection">
           <div className="event_heroText">
-              <h6>All About Our</h6>
+              <h6 className="contact_p">All About Our</h6><br />
               <h1>Events</h1>
           </div>
           <div className="event_heroImg">
             <img src={eventbg} alt="" />
           </div>
         </div>
+        <div className="space"></div>
         <div className="heading_event">
         <div className="heading">
         <h1>Our Events</h1>
       </div>
-      <p className="text-center contact_p">The Entrepreneur Show</p>
+      <p className="text-center contact_p">We don’t just talk Entrepreneurship, we show </p>
       </div>
         </div>
         <div className="eventList">
-              <div class="Eventcard">
-        <img src={tes} alt="Card Image"/>
-        <div class="overlay">
-          <div className="Eventtext">
-          <h1>Title</h1>
-          <Link className='button'>Button</Link>
-          </div>
-        </div>
-      </div>
-
+          {
+            eventData.map(({id, name,imgurl})=>{
+              return(
+                <div key={id} className="Eventcard">
+                <img src={imgurl} alt="Card Image"/>
+                <div className="overlay">
+                  <div className="Eventtext">
+                  <h1>{name}</h1>
+                  <Link to = {`${id}`} className='button'>Explore</Link>
+                  </div>
+                </div>
+              </div>
+              )
+            }
+            )
+          }
         </div>
     
     </OnScrollReveal>

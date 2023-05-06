@@ -1,7 +1,7 @@
 .event_herosection{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap: 20px;
+    grid-gap: 3rem;
     /* max-width: 85vw; */
     position: relative;
     height: 100vh;
@@ -12,29 +12,33 @@
   background-size: cover;
   background-position: center;
   padding: 20px;
+  position: relative;
 }
+.event_heroText{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  
+}
+
 .event_heroText h1{
-position: absolute;
+
 width: 321px;
 height: 115px;
-left: 100px;
-top: 321px;
 font-style: normal;
-font-weight: 600;
+font-weight: 800;
 font-size: 96px;
-line-height: 115px;
+line-height: 20px;
 letter-spacing: 0.05em;
 }
 
 .event_heroText h6{
-position: absolute;
+
 width: 163px;
 height: 29px;
-left: 105px;
-top: 304px;
-
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 20px;
 line-height: 29px;
 letter-spacing: 0.1rem; 
@@ -54,9 +58,12 @@ letter-spacing: 0.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+ 
 }
 
 .Eventcard {
+  margin:3rem auto;
   position: relative;
   width: 90%;
   height: 500px;
@@ -115,6 +122,36 @@ color: var(--primary-text);
   background-color: #fff;
   color: #36d7b7;
 }
+
+
+  /* ======== MEDIA QUERIES(MEDIUM DEVICES)====== */
+ @media screen and (max-width:1024px) {
+  .event_herosection{
+        grid-template-columns: 1fr;
+        gap:1.2rem;
+        flex-direction: column-reverse;
+       
+    }    
+     
+} 
+    
+    /* ======== MEDIA QUERIES(Small DEVICES)====== */
+    
+       @media screen and (max-width:600px) { 
+    .event_herosection{
+        grid-template-columns: 1fr;
+        gap:1rem;
+        flex-direction: column-reverse;
+    }
+    .event_heroImg{
+      height: 60%;
+      width: 60%;
+    
+    }
+    /* .event_heroImg img{
+      
+    } */
+    }
 
 
 /* .events_cont{
