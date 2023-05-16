@@ -180,6 +180,40 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
+              Up Comming Events
+              </Link>
+          </motion.li>
+          <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
+              <Link to='/' 
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              recruitments Comming soon!
+              </Link>
+          </motion.li>
+          <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
+              <Link to='/contactus' 
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
               Get in Touch
               </Link>
           </motion.li>

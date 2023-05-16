@@ -11,6 +11,7 @@ function PastSpeaker() {
   <OnScrollReveal>
     <div className='dcontainer underline max-width '>
         <div className='space'></div>
+        <div className='space'></div>
         <div className='heading'>
           <h1>Past Speakers</h1>
         </div>

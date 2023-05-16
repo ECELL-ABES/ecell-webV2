@@ -1,16 +1,12 @@
-.shows-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+.eventdetails-container{
     place-content: center;
     background: #0000005d;
     margin-bottom: 1rem;
-    /* margin: 1rem; */
     border-radius: 5px;
 }
-.show_bg{
+.eventdetail_bg{
     position: relative;
-    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/Tes/16.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../assets/Tes/16.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,27 +15,28 @@
     
   }
   
-  .show_slide{
+  .eventdetail_slide{
     display: flex;
     justify-content: center;
     
   }
 
-.content_show p{
+.content_eventdetail p{
     margin: 2rem;
     color: rgb(190, 190, 190);
     text-align: justify;
+    font-size: 1.2rem;
 }
 
 
   /* ======== MEDIA QUERIES(MEDIUM DEVICES)====== */
   @media screen and (max-width:1024px) {
-    .shows-container{
+    .eventdetails-container{
         grid-template-columns: 1fr;
         gap:1.2rem;
         margin-bottom: 1rem;
     }  
-    .show_bg{
+    .eventdetail_bg{
         height:auto;
         
       }  
@@ -49,11 +46,11 @@
     /* ======== MEDIA QUERIES(Small DEVICES)====== */
     
       @media screen and (max-width:600px) {
-    .shows-container{
+    .eventdetails-container{
         grid-template-columns: 1fr;
         gap:1rem;
     }
-    .show_bg{
+    .eventdetail_bg{
         height:auto;
         
       } 

@@ -3,10 +3,11 @@ import "./shows.css";
 import { Tes } from "./showdata";
 import img1 from "../../assets/Tes/13.jpg";
 import OnScrollReveal from "../../onscrolleffect/OnScrollReveal";
+import { Link } from "react-router-dom";
 
 function Shows() {
   return (
-    <OnScrollReveal className="">
+    <OnScrollReveal>
     <div className="dcontainer show_bg" id="shows">
       <div className="space"></div>
       <div className="heading">
@@ -79,7 +80,7 @@ function Shows() {
             aspiring entrepreneurs to learn from a successful startup founder
             and gain valuable insights into the tech industry.
           </p>
-        </div>
+          </div>
       </div>
     </div>
     </OnScrollReveal>

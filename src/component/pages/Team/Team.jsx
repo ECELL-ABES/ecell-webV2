@@ -16,6 +16,7 @@ function Team() {
     <div className='bg_team'>
     <div className='dcontainer underline max-width ' id='teams'>
         <div className='space'></div>
+        <div className='space'></div>
         <div className='heading'>
           <h1>Meet Our Team</h1>
         </div>
@@ -38,6 +39,23 @@ function Team() {
         </div> */}
         <div className="team-col">
       <h1 className='text-center text'>Executives</h1>
+      <div className="space"></div>
+
+        <div className='card_container'>    
+            {
+          Cordinators.map((item)=>{
+            return(
+           <TCard name={item.name}
+            position={item.position}
+            image={item.image}
+            />)
+          }
+          )
+        }
+        </div>
+        </div>
+        <div className="team-col">
+      <h1 className='text-center text'>Alumnus</h1>
       <div className="space"></div>
 
         <div className='card_container'>    

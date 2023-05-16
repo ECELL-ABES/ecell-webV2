@@ -21,18 +21,18 @@ export const eventData = [
     imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371584/eventcardImg/achievers_talk.jpg`,
   },
   {
-    id: 4,
+    id: 5,
     name: "Smart India Hackathon",
     imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371586/eventcardImg/SIH.jpg`
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Game of Drone",
     imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371588/eventcardImg/game_of_drone.png`
   },
   {
-    id: 6,
+    id: 7,
     name: "TES: The Entrepreneur Show 2022",
     imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371588/eventcardImg/Tes_old.jpg`,
   },

@@ -1,9 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './pitchidea.css'
 import { Link, NavLink } from "react-router-dom";
+import OverlayForm from './OverlayForm';
+
 
 
 function PitchIdea() {
+
+  const [showModal, setShowModal] = useState(false);
+
+
+  const handleOpenModal = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <div className='dcontainer max-width underline  'id='event'>
     <div className='space'></div>
@@ -19,7 +33,13 @@ function PitchIdea() {
           </div>
           <div className="pitchidea_row">
               <p className='text-center text'>Got a fantastic business idea? Do you want to make it happen? Join us for a pitch event where you may share your concept with a group of industry professionals and receive input, counsel, and assistance. Find out how to create an effective pitch, draw in investors, and deal with obstacles. Don't let this chance to make it happen pass you by!</p>
-              <Link to="/" className='button-pitchidea text-center'>Register now!</Link>
+              <div>
+              <button onClick={handleOpenModal}  className='button-pitchidea text-center'>Create Startup</button>
+              {
+                // <OverlayForm/>
+              }
+              {showModal && <OverlayForm onClose={handleCloseModal} />}
+              </div>
           </div>
           </div>
         </div>

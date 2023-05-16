@@ -10,6 +10,8 @@ import Footer from './pages/footer/Footer';
 import { useState, useEffect } from 'react';
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import PastSpeaker from './pages/Past Speaker/PastSpeaker';
+import videoFile from './assets/bg/startup.gif'
+import EventDetails from './pages/Events/EventDetails/EventDetails';
 
 function MainRoutingPage() {
 
@@ -31,8 +33,8 @@ function MainRoutingPage() {
       justifyContent: 'center',
        alignItems: 'center',
        height:'100vh'}}>
-      <ClimbingBoxLoader color="#36d7b7" />
-      </div>
+         <img src={videoFile} alt="" />
+         </div>
       :
     (
     <Router>
@@ -52,11 +54,12 @@ function MainRoutingPage() {
     </>} />
     
    <Route path='/contactus' element={<Contactus/>} />
-   <Route path='/pastspeaker' element={<PastSpeaker/>} />
+   <Route path='/pastspeaker' element={<PastSpeaker/>} />     <Route path='/events/:id' element={<EventDetails/>} />
    
-   </Routes>  
+  </Routes>  
    <Footer/>
     </Router>
+    
     )}
 </>
   )
