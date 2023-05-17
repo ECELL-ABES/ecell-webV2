@@ -68,7 +68,7 @@ function OverlayForm({ onClose }) {
         &times;
       </span>
     <form className="startup-form" onSubmit={handleSubmit}>
-        <h1>Create a New Startup</h1>
+        <h1>Pitch Your Idea!</h1>
 
         <label>
           Startup Name:
@@ -168,14 +168,15 @@ function OverlayForm({ onClose }) {
       </div>
     ))}
 
-    <button type="button" onClick={handleAddMember}>
+    <button type="button" className='addmember' onClick={handleAddMember}>
       Add another Member
     </button>
-
-    <button type="submit">Submit</button>
+          <div className="btn-sub">
+    <button type="submit" >Submit</button>
         <button type="button" onClick={onClose}>
           Cancel
         </button>
+        </div>
   </form>
 </div>
 </div>
