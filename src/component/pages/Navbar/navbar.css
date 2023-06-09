@@ -19,13 +19,13 @@
     transition: background-color 0.2s linear;
   }
   .nav-logo-div1{
-    width: 10rem;
+    width: 7rem;
     height: auto;
     display: block;
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
-    transform: translate(0%, -25%);
+    transform: translate(15%, -25%);
     font-size: 1.8rem;
     color: white;
   }
@@ -186,9 +186,9 @@
 
   @media screen and (max-width: 700px) {
     .nav-logo-div1{
-      transform: translate(0%, 3%);
+      transform: translate(15%, 7%);
       /* width: 40%; */
-      width: 8rem;
+      width: 6rem;
       height: auto;
       
     }
@@ -199,9 +199,9 @@
   
   @media screen and (max-width: 1200px) and (min-width:700px) {
     .nav-logo-div1{
-      width: 8rem;
+      width: 6rem;
       height: auto;
-      transform: translate(0%, 9%);
+      transform: translate(15%, 0%);
     }
     .nav-logo-div2{
       width: 8rem;
