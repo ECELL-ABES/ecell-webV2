@@ -11,13 +11,13 @@ export const eventData = [
   },
   {
     id: 3,
-    name: `Indian Navi Visit`,
+    name: `Indian Navy Visit`,
     imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683370853/eventcardImg/indiannavivisit.jpg`,
   },
 
   {
     id: 4,
-    name: `Achiver's Talk`,
+    name: `Achiever's Talk`,
     imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371584/eventcardImg/achievers_talk.jpg`,
   },
   {

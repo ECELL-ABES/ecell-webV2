@@ -9,10 +9,10 @@ const moto =[
     image: "https://assets2.lottiefiles.com/packages/lf20_iqbweiiz.json",
     text: <div>
        <ul>
-                  <li>Embrace creativity, risk-taking, innovation, and learning from mistakes as part of our rich mindset.</li>
-                  <li>Question the status quo and consider alternative solutions to drive change.</li>
-                  <li>Drive towards making a meaningful impact and changing the world with our ideas.</li>
-                  <li>Embrace a culture of continuous learning and improvement, valuing creativity and innovation.</li>
+                  <li style={{textAlign:'justify'}}>Embrace creativity, risk-taking, innovation, and learning from mistakes as part of our rich mindset.</li>
+                  <li style={{textAlign:'justify'}}>Question the status quo and consider alternative solutions to drive change.</li>
+                  <li style={{textAlign:'justify'}}>Drive towards making a meaningful impact and changing the world with our ideas.</li>
+                  <li style={{textAlign:'justify'}}>Embrace a culture of continuous learning and improvement, valuing creativity and innovation.</li>
                   </ul>
     </div>
    },
@@ -21,10 +21,10 @@ const moto =[
     image: "https://assets6.lottiefiles.com/packages/lf20_Twpva09nPz.json",
     text: <div>
       <ul>
-                <li>Inspire and motivate students to pursue their entrepreneurial dreams! </li>
-                <li>Empower students with skills and knowledge for entrepreneurship success!</li>
-                <li>Foster connections with mentors, investors, experts in the ecosystem!</li>
-                <li>Support and celebrate the achievements and successes of student entrepreneurs</li></ul>
+                <li style={{textAlign:'justify'}}>Inspire and motivate students to pursue their entrepreneurial dreams! </li>
+                <li style={{textAlign:'justify'}}>Empower students with skills and knowledge for entrepreneurship success!</li>
+                <li style={{textAlign:'justify'}}>Foster connections with mentors, investors, experts in the ecosystem!</li>
+                <li style={{textAlign:'justify'}}>Support and celebrate the achievements and successes of student entrepreneurs</li></ul>
     </div>
   },
   {
@@ -32,9 +32,9 @@ const moto =[
     image:'https://assets1.lottiefiles.com/packages/lf20_ieemc0fs.json',
     text: <div>
       <ul>
-                <li>Create a vibrant and dynamic entrepreneurial culture on campus and beyond! </li>
-                <li>Nurture and develop a pool of talented and innovative entrepreneurs who can contribute to the economic and social development of the nation. </li>
-                <li>Become a leading entrepreneurship cell that sets benchmarks for excellence and impact! </li></ul>
+                <li style={{textAlign:'justify'}}>Create a vibrant and dynamic entrepreneurial culture on campus and beyond! </li>
+                <li style={{textAlign:'justify'}}>Nurture and develop a pool of talented and innovative entrepreneurs who can contribute to the economic and social development of the nation. </li>
+                <li style={{textAlign:'justify'}}>Become a leading entrepreneurship cell that sets benchmarks for excellence and impact! </li></ul>
     </div>
   }
 ]

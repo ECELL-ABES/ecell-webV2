@@ -166,7 +166,7 @@ function Navbar() {
                 Gallery
               </Link>
           </motion.li>
-          <motion.li
+          {/* <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
             whileHover={{
@@ -199,7 +199,7 @@ function Navbar() {
             >
               recruitments Comming soon!
               </Link>
-          </motion.li>
+          </motion.li> */}
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}

@@ -12,6 +12,7 @@ import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import PastSpeaker from './pages/Past Speaker/PastSpeaker';
 import videoFile from './assets/bg/startup.gif'
 import EventDetails from './pages/Events/EventDetails/EventDetails';
+import ScrollToTop from './ScrollToTop';
 
 function MainRoutingPage() {
 
@@ -38,6 +39,7 @@ function MainRoutingPage() {
       :
     (
     <Router>
+      <ScrollToTop/>
     <Header/>
     <Routes>
     <Route path='/' exact element={<><HomePage/>

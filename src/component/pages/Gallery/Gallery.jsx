@@ -15,6 +15,7 @@ import img10 from '../../assets/GalleryImage/10.JPG'
 import img11 from '../../assets/GalleryImage/11.JPG'
 // import Carousel from '../carousel/ResposiveCarousel'
 import ResposiveCarousel from '../carousel/ResposiveCarousel'
+import Slider from '../carousel/Slider';
 // import img8 from '../../assets/GalleryImage/8.jpg'
 
 function Gallery() {
@@ -41,8 +42,10 @@ function Gallery() {
         <div className='heading'>
           <h1>Gallery</h1>
         </div>
-        <div classname="max-width text-center">
-            <ResposiveCarousel/>
+        <div classname="max-width text-center" style={{margin:'1.5rem'}}>
+            {/* <ResposiveCarousel/> */}
+               <Slider images={images} interval={3000}/> 
+
         </div>
         <ResponsiveMasonry
                 columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}

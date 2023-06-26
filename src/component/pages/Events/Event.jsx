@@ -31,6 +31,7 @@ function Event() {
       <p className="text-center contact_p">We don’t just talk Entrepreneurship, we show </p>
       </div>
         </div>
+        
         <div className="eventList">
           {
             eventData.map(({id, name,imgurl})=>{

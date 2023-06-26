@@ -46,7 +46,7 @@ text-align: center;
     color: var(--text1);
     position: relative;
 }
-.moto_text h1::after{
+/* .moto_text h1::after{
      content: "";
     position: absolute;
     display: block ;
@@ -58,7 +58,7 @@ text-align: center;
     background-color:var(--text4);
     z-index: -1;
   }
-
+ */
 
 .list ul li{
     list-style: disc;

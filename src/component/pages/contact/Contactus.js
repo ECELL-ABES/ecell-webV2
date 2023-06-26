@@ -38,7 +38,7 @@ function Contactus() {
         <h1>Get in Touch</h1>
       </div>
       <p className='text-center contact_p'>Feel free to contact us in case of any queries</p>
-    <div className="section max-width">
+    <div className="section">
         
     <div className="contact_container">
         <div className="contactInfo"> 

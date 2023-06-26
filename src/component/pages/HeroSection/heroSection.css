@@ -54,7 +54,7 @@ z-index: -2;
 .entrepreneurship{
   position: relative;
 }
-.entrepreneurship::after{
+/* .entrepreneurship::after{
   content: "";
   position: absolute;
   display: block;
@@ -62,9 +62,9 @@ z-index: -2;
   bottom: 16px;
   left: 0px;
   width: 100%;
-  background-color:var(--text4);
+  background-color:var(--primary);
   z-index: -1;
-}
+} */
 .hero-claim-label {
   background-color: var(--bg-gray);
   width: 100%;
