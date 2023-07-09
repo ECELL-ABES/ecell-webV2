@@ -1,71 +1,136 @@
-import React, {useState} from 'react'
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import React, { useEffect, useState } from "react";
+import { initializeApp } from 'firebase/app';
+import Masonry from "react-responsive-masonry";
+import { ResponsiveMasonry } from "react-responsive-masonry";
+import { getFirestore, collection, query, onSnapshot } from 'firebase/firestore';
 import OnScrollReveal from '../../onscrolleffect/OnScrollReveal';
+import "./gallery.css"
 
-import img1 from '../../assets/GalleryImage/1.JPG'
-import img2 from '../../assets/GalleryImage/2.JPG'
-import img3 from '../../assets/GalleryImage/3.JPG'
-import img4 from '../../assets/GalleryImage/4.JPG'
-import img5 from '../../assets/GalleryImage/5.jpg'
-import img6 from '../../assets/GalleryImage/6.JPG'
-import img7 from '../../assets/GalleryImage/7.JPG'
-import img8 from '../../assets/GalleryImage/8.JPG'
-import img9 from '../../assets/GalleryImage/9.JPG'
-import img10 from '../../assets/GalleryImage/10.JPG'
-import img11 from '../../assets/GalleryImage/11.JPG'
-// import Carousel from '../carousel/ResposiveCarousel'
-import ResposiveCarousel from '../carousel/ResposiveCarousel'
-import Slider from '../carousel/Slider';
-// import img8 from '../../assets/GalleryImage/8.jpg'
+// Firebase configuration object
+const firebaseConfig = {
+  apiKey: "AIzaSyA-9lQTOeAgL8ElP2nJ8Fj3EIKOHEJQwmk",
+  authDomain: "ecell-2704e.firebaseapp.com",
+  projectId: "ecell-2704e",
+  storageBucket: "ecell-2704e.appspot.com",
+  messagingSenderId: "576322627480",
+  appId: "1:576322627480:web:b3aed16aa0667863fd6ded"
+};
 
-function Gallery() {
-    const images=[
-        img1,
-        img2,
-        img8,
-        img3,
-        img4,
-        img5,
-        img6,
-        img7,
-        img11,
-        img9,
-        img10,
-        // img8
-    ]
-   
+// Initialize Firebase app
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+const Gallery = () => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const collectionRef = collection(db, "images");
+      const q = query(collectionRef);
+
+      const unsubscribe = onSnapshot(q, (snapshot) => {
+        const fetchedData = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data()
+        }));
+        setData(fetchedData);
+      });
+
+      return unsubscribe;
+    };
+
+    fetchData();
+  }, []);
+
+  const breakpointColumnsObj = {
+    default: 3,
+    1100: 2,
+    700: 1
+  };
+
+
+
+  
+  const [selectedImage, setSelectedImage] = useState(null);
+      
+  const handleImageClick = (imageUrl) => {
+    setSelectedImage(imageUrl);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedImage(null);
+  };
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        handleCloseModal();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
   return (
-   <>
-   <div className='space'></div>
-    <div className='dcontainer max-width underline' id='gallery'>
-    <div className='space'></div>
-        <div className='heading'>
-          <h1>Gallery</h1>
-        </div>
-        <div classname="max-width text-center" style={{margin:'1.5rem'}}>
-            {/* <ResposiveCarousel/> */}
-               <Slider images={images} interval={3000}/> 
 
-        </div>
-        <ResponsiveMasonry
+      
+      
+   <>
+  <div className='space'></div>
+   <div className='dcontainer max- underline'  id='gallery'>
+   <div className='space'></div>
+       <div className='heading'>
+         <h1>Gallery</h1>
+       </div>
+        {/* <div className="image-masonry-gallery">
+       {data.map((imageUrl, index) => (
+         <div key={index} className="image-masonry-gallery__item">
+            <OnScrollReveal>
+           <img src={imageUrl.downloadURL}  alt={`Image ${index + 1}`} />
+           </OnScrollReveal>
+         </div>
+       ))}
+     </div>  */}
+
+     <ResponsiveMasonry
                 columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
             >
-                <Masonry gutter='10px'>
-                    {images.map((image, i) => (
-                        <OnScrollReveal>
-                        <img
-                            key={i}
-                            src={image}
-                            style={{width: "100%", display: "block"}}
-                            alt=""
-                        />
-                        </OnScrollReveal>
-                    ))}
-                </Masonry>
-            </ResponsiveMasonry>
-    </div>
-    </>
-  )
-}
+     <Masonry
+      breakpointCols={breakpointColumnsObj}
+      columnClassName="my-masonry-grid_column"
+    >
+      {data.map((imageUrl, index) => (
+        <div key={index}>
+            <OnScrollReveal>
+          <img src={imageUrl.downloadURL} 
+          style={{width: "100%", display: "block"}} alt={`Image ${index}`}  onClick={() => handleImageClick(imageUrl)} />
+          </OnScrollReveal>
+        </div>
+      ))}
+    </Masonry>
+    </ResponsiveMasonry>
+     </div>
 
-export default Gallery
+     {selectedImage && (
+        <div className="modal" onClick={handleCloseModal}>
+          <div className="modal-content">
+            <img
+              src={selectedImage.downloadURL}
+              alt="Selected Image"
+              className="modal-image"
+            />
+          </div>
+        </div>
+      )}
+
+
+     </>
+  );
+};
+
+export default Gallery;
+

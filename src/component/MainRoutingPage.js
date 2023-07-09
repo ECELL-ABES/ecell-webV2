@@ -13,6 +13,7 @@ import PastSpeaker from './pages/Past Speaker/PastSpeaker';
 import videoFile from './assets/bg/startup.gif'
 import EventDetails from './pages/Events/EventDetails/EventDetails';
 import ScrollToTop from './ScrollToTop';
+import Upload from './pages/Gallery/Upload';
 
 function MainRoutingPage() {
 
@@ -53,6 +54,8 @@ function MainRoutingPage() {
     </>} />
     
     <Route path='/gallery' exact element={<><Gallery/>
+    </>} />
+    <Route path='/domainuploadfiles' exact element={<><Upload/>
     </>} />
     
    <Route path='/contactus' element={<Contactus/>} />
