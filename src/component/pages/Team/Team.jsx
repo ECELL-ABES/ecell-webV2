@@ -3,7 +3,7 @@ import './team.css'
 import { BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 import { HiMail } from 'react-icons/hi';
-import { Cordinators, mentor, team, teamData } from './teamData';
+import { Cordinators, alumni, mentor, team, teamData } from './teamData';
 import TCard from '../card/TCard';
 
 
@@ -55,12 +55,12 @@ function Team() {
         </div>
         </div>
         <div className="team-col">
-      <h1 className='text-center text'>Alumnus</h1>
+      <h1 className='text-center text'>Alumni</h1>
       <div className="space"></div>
 
         <div className='card_container'>    
             {
-          Cordinators.map((item)=>{
+          alumni.map((item)=>{
             return(
            <TCard name={item.name}
             position={item.position}

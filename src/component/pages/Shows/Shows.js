@@ -4,6 +4,7 @@ import { Tes } from "./showdata";
 import img1 from "../../assets/Tes/13.jpg";
 import OnScrollReveal from "../../onscrolleffect/OnScrollReveal";
 import { Link } from "react-router-dom";
+import Slider from "../carousel/Slider";
 
 function Shows() {
   return (
@@ -16,16 +17,14 @@ function Shows() {
       <p className="text-center contact_p">The Entrepreneur Show</p>
 
       <div className="shows-container max-width">
-        <div className="show_slide">
-          <div className="dcontainer max-width">
+        <div className="show_slide" style={{margin:'3rem 0'}}>
+          {/* <div className="dcontainer max-width">
             <div
               id="carouselExampleAutoplaying"
               className="carousel slide div_outer"
               data-bs-ride="carousel"
             >
-              {/* <div className="div_inner1"></div>
-              <div className="div_inner2"></div>
-              <div className="div_inner3"></div> */}
+              
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img src={img1} className="d-block w-100" alt="..." />
@@ -61,7 +60,9 @@ function Shows() {
                 <span className="visually-hidden">Next</span>
               </button>
             </div>
-          </div>
+          </div> */}
+          <Slider images={Tes} interval={2000} />
+
         </div>
         <div className="content_show">
           <p>

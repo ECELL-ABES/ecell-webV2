@@ -1,5 +1,3 @@
-import NandiniBhardwaj from '../../assets/team/NandiniBhardwaj.jpg'
-import ParasAgarwal from '../../assets/team/ParasAgarwal.JPG'
 import img1 from '../../assets/team/YashMishra.png'
 import img2 from '../../assets/team/Kamakshi.png'
 import img3 from '../../assets/team/ShashankShekharYadav.jpg'
@@ -8,19 +6,20 @@ import img5 from '../../assets/team/SaurabhSrivastav.jpg'
 import img6 from '../../assets/team/ShiwatviManorama.jpg'
 import img7 from '../../assets/team/ShoaibAhmed.png'
 import img8 from '../../assets/team/Anshika.png'
-import img9 from '../../assets/team/Ayushi.png'
-import img10 from '../../assets/team/SachinSharma.jpeg'
 import img11 from '../../assets/team/DivyanshuGupta.png'
 import YashSarin from '../../assets/team/YashSarin.png'
 import RudranshJain from '../../assets/team/RudranshJain.jpg'
 import ShubhanshMahawar from '../../assets/team/ShubhanshMahawar.jpg'
 import BhaskarDev from '../../assets/team/BhashkarDev.png'
 import ShreyashPandey from '../../assets/team/ShreyashPandey.jpg'
-import AdityaKumar from '../../assets/team/AdityaKumar.jpeg'
+import AdityaKumar from '../../assets/team/alumini/AdityaKumar.jpeg'
 import Neelansh from '../../assets/team/Neelansh.png'
-import NamanKumar from '../../assets/team/NamanKumar.jpeg'
+import NamanKumar from '../../assets/team/alumini/NamanKumar.jpeg'
 import AbhayBansal from '../../assets/team/AbhayBansal.jpeg'
-import SamratRajsharma from '../../assets/team/SamratRajsharma.jpg'
+import AnuroopaGoswami from '../../assets/team/alumini/AnuroopaGoswami.jpg'
+import PrabhanshTripathi from '../../assets/team/alumini/PrabhanshTripathi.jpg'
+import SarveshGautam from '../../assets/team/alumini/SarveshGautam.jpg'
+
 
 
 export const Cordinators=[ 
@@ -46,6 +45,13 @@ export const Cordinators=[
     mail:'mailto:Yash.20B0311044@abes.ac.in',
     linkedIn:'https://www.linkedin.com/in/yash-sarin-84185b221',
     image: YashSarin,
+},
+{
+    name:'Mr. Neelansh Panday',
+    position: 'TechOps Coordinator',
+    mail:'mailto:Neelansh.20B0131095@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/neelansh-pandey-81348b21b',
+    image:Neelansh,   
 },
 {
     name: 'Mr. Divyanshu Gupta',
@@ -78,15 +84,47 @@ export const Cordinators=[
      instagram: 'annxiieee' ,
     image:img8,
 },
-{
-    name:'Mr. Neelansh Panday',
-    position: 'TechOps Coordinator',
-    mail:'mailto:Neelansh.20B0131095@abes.ac.in',
-    linkedIn:'https://www.linkedin.com/in/neelansh-pandey-81348b21b',
-    image:Neelansh,   
-}                			
+                			
 ]
 
+
+export const alumni = [
+    {
+    name:'Mr. Sarvesh Gautam',
+    position: 'Founder E-Cell ABESEC/Founder of HAPPYPOT GARDEN PVT. LTD.',
+    mail:'mailto:Neelansh.20B0131095@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/neelansh-pandey-81348b21b',
+    image:SarveshGautam,   
+},
+    {
+    name:'Mr. Prabhansh Tripathi',
+    position: 'Executive mentor & Former President E-Cell ABESEC/Dev at Accenture',
+    mail:'mailto:Neelansh.20B0131095@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/neelansh-pandey-81348b21b',
+    image:PrabhanshTripathi,   
+},
+    {
+    name:'Ms. Anuroopa Goswami',
+    position: 'former Finance Mentor E-Cell ABESEC',
+    mail:'mailto:Neelansh.20B0131095@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/neelansh-pandey-81348b21b',
+    image:AnuroopaGoswami,   
+},
+    {
+    name:'Mr. Aditya Kumar',
+    position: 'Photography Mentor E-Cell ABESEC',
+    mail:'mailto:Neelansh.20B0131095@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/neelansh-pandey-81348b21b',
+    image:AdityaKumar,   
+},
+    {
+    name:'Mr. Naman Kumar',
+    position: 'TechOps Mentor E-Cell ABESEC',
+    mail:'mailto:Neelansh.20B0131095@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/neelansh-pandey-81348b21b',
+    image:NamanKumar,   
+}
+]
 
 
 export const team=[
