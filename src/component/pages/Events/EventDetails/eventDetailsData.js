@@ -1,37 +1,19 @@
-import img1 from '../../../assets/Tes/1.JPG'
-import img2 from '../../../assets/Tes/2.JPG'
-import img3 from '../../../assets/Tes/3.JPG'
+// import img1 from '../../../assets/Tes/1.JPG'
+// import img2 from '../../../assets/Tes/2.JPG'
+// import img3 from '../../../assets/Tes/3.JPG'
 import img4 from '../../../assets/Tes/4.JPG'
-import img5 from '../../../assets/Tes/5.JPG'
-import img6 from '../../../assets/Tes/6.JPG'
-import img7 from '../../../assets/Tes/7.JPG'
-import img8 from '../../../assets/Tes/8.JPG'
-import img9 from '../../../assets/Tes/9.JPG'
-import img10 from '../../../assets/Tes/10.JPG'
-import img11 from '../../../assets/Tes/11.jpg'
-import img12 from '../../../assets/Tes/12.jpg'
-import img13 from '../../../assets/Tes/13.jpg'
-import img14 from '../../../assets/Tes/14.jpg'
-import img15 from '../../../assets/Tes/15.jpg'
+// import img5 from '../../../assets/Tes/5.JPG'
+// import img6 from '../../../assets/Tes/6.JPG'
+// import img7 from '../../../assets/Tes/7.JPG'
+// import img8 from '../../../assets/Tes/8.JPG'
+// import img9 from '../../../assets/Tes/9.JPG'
+// import img10 from '../../../assets/Tes/10.JPG'
+// import img11 from '../../../assets/Tes/11.jpg'
+// import img12 from '../../../assets/Tes/12.jpg'
+// import img13 from '../../../assets/Tes/13.jpg'
+// import img14 from '../../../assets/Tes/14.jpg'
+// import img15 from '../../../assets/Tes/15.jpg'
 
-
-// export const Tes = [
-//     // img1,
-//     img2,
-//     // img3,
-//     img4,
-//     // img5,
-//     img6,
-//     img7,
-//     // img8,
-//     img9,
-//     img10,
-//     img11,
-//     img12,
-//     // img13,
-//     // img14,
-//     // img15,
-// ]
 
 export const Tes23 = [
     {
@@ -58,7 +40,7 @@ export const Tes23 = [
     ,
     {
         id:2,
-        img: img2,
+        img: `https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371589/eventcardImg/esummit%202022.jpg`,
         title: "E-summit 2022",
         subTitle: "The Entrepreneurship summit",
         desc:<p>
@@ -67,7 +49,7 @@ export const Tes23 = [
     },
     {
         id:3,
-        img: img3,
+        img: `https://res.cloudinary.com/dj9kcydeo/image/upload/v1683370853/eventcardImg/indiannavivisit.jpg`,
         title: "Indian Navy Visit",
         subTitle: "",
         desc:<p>
@@ -76,7 +58,7 @@ export const Tes23 = [
     },
     {
         id:4,
-        img: img4,
+        img: `https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371584/eventcardImg/achievers_talk.jpg`,
         title: "Achiever's Talk",
         subTitle: "",
         desc:<p>
@@ -85,7 +67,7 @@ export const Tes23 = [
     },  
     {
         id:5,
-        img: img5,
+        img: `https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371586/eventcardImg/SIH.jpg`,
         title: "Smart India Hackathon",
         subTitle: "",
         desc:<p>
@@ -93,7 +75,7 @@ export const Tes23 = [
     },
     {
         id:6,
-        img: img6,
+        img: `https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371588/eventcardImg/game_of_drone.png`,
         title: "Game of Drone",
         subTitle: `Event of "TECH PRAVAAH"`,
         desc:<p>
@@ -103,46 +85,11 @@ export const Tes23 = [
     ,
     {
         id:7,
-        img: img7,
-        title: "E-Summit 2021",
+        img: `https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371588/eventcardImg/Tes_old.jpg`,
+        title: "E-Summit 2022",
         subTitle: "The Entrepreneurship summit",
         desc:<p>
             </p>
     }
    
-]
-
-const tes=[
-    {
-        id: 2,
-        name: "E-Summit 2022",
-        imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371589/eventcardImg/esummit%202022.jpg`,
-      },
-      {
-        id: 3,
-        name: `Indian Navi Visit`,
-        imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683370853/eventcardImg/indiannavivisit.jpg`,
-      },
-    
-      {
-        id: 4,
-        name: `Achiver's Talk`,
-        imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371584/eventcardImg/achievers_talk.jpg`,
-      },
-      {
-        id: 4,
-        name: "Smart India Hackathon",
-        imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371586/eventcardImg/SIH.jpg`
-      },
-    
-      {
-        id: 5,
-        name: "Game of Drone",
-        imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371588/eventcardImg/game_of_drone.png`
-      },
-      {
-        id: 6,
-        name: "TES: The Entrepreneur Show 2022",
-        imgurl:`https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371588/eventcardImg/Tes_old.jpg`,
-      },
 ]
