@@ -70,7 +70,15 @@ export const Tes23 = [
         img: `https://res.cloudinary.com/dj9kcydeo/image/upload/v1683371586/eventcardImg/SIH.jpg`,
         title: "Smart India Hackathon",
         subTitle: "",
-        desc:<p>
+        desc:
+            <p>
+           The Smart India Hackathon, organized by the Entrepreneurship Cell of ABES Engineering College, brings together brilliant minds with a shared vision of driving innovation and technological excellence. This prestigious event serves as a captivating platform for young participants to collaborate and address pressing real-world challenges faced by India.
+
+        Encouraging a culture of innovation and problem-solving, the Hackathon provides participants with opportunities to work on challenges of national importance. It fosters an environment where diverse ideas and expertise converge, leading to groundbreaking solutions. Participants are tasked with creating viable solutions that significantly impact various sectors, from healthcare to governance.
+
+        Beyond problem-solving, the Hackathon nurtures entrepreneurship and startup culture, inspiring participants to transform their innovative ideas into viable business ventures. This contributes to economic growth and employment opportunities in the country.
+
+        Throughout the event, participants receive guidance and motivation from mentors, industry experts, and professors. Fueled by passion and dedication, students work tirelessly to create meaningful solutions for a smarter and sustainable India. The Smart India Hackathon is an empowering journey that unlocks the potential of young minds and plays a pivotal role in shaping the nation's progress through innovation, collaboration, and entrepreneurship.
             </p>
     },
     {
@@ -89,6 +97,7 @@ export const Tes23 = [
         title: "E-Summit 2022",
         subTitle: "The Entrepreneurship summit",
         desc:<p>
+          The Entrepreneur Show (TES) stood as a remarkable and meticulously organized event by the Entrepreneurship Cell of ABES Engineering College, featuring the esteemed presence of Karandeep Singh Vohra, the visionary founder of Fairrent. Fairrent is a renowned platform that specializes in providing long-term rentals tailored to meet the specific needs of B2B players. Their approach involves forging strategic partnerships with firms to expertly transition essential and non-essential assets from the business's balance sheets to operational expenses, effectively optimizing resource allocation and unlocking substantial value. The event served as an unparalleled platform for aspiring entrepreneurs and students to glean invaluable insights from an industry stalwart, delving deep into the world of startups and gaining profound knowledge about innovative business solutions.
             </p>
     }
    
