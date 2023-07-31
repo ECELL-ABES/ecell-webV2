@@ -55,8 +55,8 @@ function MainRoutingPage() {
     
     <Route path='/gallery' exact element={<><Gallery/>
     </>} />
-    <Route path='/domainuploadfiles' exact element={<><Upload/>
-    </>} />
+    {/* <Route path='/domainuploadfiles' exact element={<><Upload/>
+    </>} /> */}
     
    <Route path='/contactus' element={<Contactus/>} />
    <Route path='/pastspeaker' element={<PastSpeaker/>} />     <Route path='/events/:id' element={<EventDetails/>} />
