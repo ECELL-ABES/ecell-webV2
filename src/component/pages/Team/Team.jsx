@@ -72,7 +72,7 @@ function Team() {
         </div>
         </div>
         <div className="team-col">
-        <h1 className='text-center text'>Alumni</h1>
+        <h1 className='text-center text'>Volunteers 2023-24</h1>
       <div className="space"></div>
 
         <div className='Textcard_container'>    
@@ -90,10 +90,7 @@ function Team() {
             )
           })
         }
-          <div className="textcard_content">
-            <h2>
-            </h2>
-          </div>
+          
         </div>
         </div>
     
