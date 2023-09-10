@@ -34,7 +34,7 @@ function PitchIdea() {
           <div className="pitchidea_row">
               <p className='text-center text'>Got a fantastic business idea? Do you want to make it happen? Join us for a pitch event where you may share your concept with a group of industry professionals and receive input, counsel, and assistance. Find out how to create an effective pitch, draw in investors, and deal with obstacles. Don't let this chance to make it happen pass you by!</p>
               <div>
-              <button onClick={handleOpenModal}  className='button-pitchidea text-center'>Create Startup</button>
+              <button onClick={handleOpenModal}  className='button-pitchidea text-center'>Pitch Your Idea</button>
               {
                 // <OverlayForm/>
               }

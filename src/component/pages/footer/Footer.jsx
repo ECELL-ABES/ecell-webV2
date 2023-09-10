@@ -90,7 +90,7 @@ function Footer() {
                     {/* <h4>Terms and Conditions</h4> */}
                     <p style={{color:'#000'}}>
                         
-                            This website is developed and managed by the <span style={{color:'#36d7b7', fontWeight:"800"}}> Entrepreneurship Cell, ABES Engineering College.</span>
+                            This website is developed and managed by the <span style={{color:'var(--primary-text)', fontWeight:"800"}}> Entrepreneurship Cell, ABES Engineering College.</span>
                             By using this website, you agree to our Terms and Conditions, Privacy Policy and Cookie Policy.
                             {/* <br /><br />
                             <span style={{fontSize:'.8rem', fontWeight:'800'}}>

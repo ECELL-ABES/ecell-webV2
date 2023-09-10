@@ -194,6 +194,367 @@ export const team=[
 
 
 ]
+
+
+  export const members= [
+      {
+        name: "Saurabh Srivastava",
+        year: "Fourth Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Shivang Rawat",
+        year: "Fourth Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Shubhansh Mahawar",
+        year: "Fourth Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Shashank Shekhar Yadav",
+        year: "Fourth Year",
+        department: "Events"
+      },
+      {
+        name: "Rudransh Jain",
+        year: "Fourth Year",
+        department: "Events"
+      },
+      {
+        name: "Anuj Mishra",
+        year: "Second Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Parth Bhardwaj",
+        year: "Second Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Keshav Singh",
+        year: "Second Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Aadya Shree",
+        year: "Second Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Ayush Mishra",
+        year: "Second Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Sai Goswami",
+        year: "Second Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Deepali Jain",
+        year: "Second Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Dewansh Tyagi",
+        year: "Second Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Tanishka Saharawat",
+        year: "Second Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Ishita Rathore",
+        year: "Second Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Agrima Ranjan",
+        year: "Second Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Tanishka Singh",
+        year: "Second Year",
+        department: "Events"
+      },
+      {
+        name: "Saket Abhishek",
+        year: "Second Year",
+        department: "Events"
+      },
+      {
+        name: "Hirdyanshu Gupta",
+        year: "Second Year",
+        department: "Events"
+      },
+      {
+        name: "Isha Tripathi",
+        year: "Second Year",
+        department: "Events"
+      },
+      {
+        name: "Anshika Mishra",
+        year: "Second Year",
+        department: "Events"
+      },
+      {
+        name: "Vinit Baishkiyar",
+        year: "Second Year",
+        department: "Events"
+      },
+      {
+        name: "Stuti Sharma",
+        year: "Second Year",
+        department: "Events"
+      },
+      {
+        name: "Shreya Dubey",
+        year: "Second Year",
+        department: "Events"
+      },
+      {
+        name: "Shubhi Sharma",
+        year: "Second Year",
+        department: "Events"
+      },
+      {
+        name: "Unnati Malik",
+        year: "Second Year",
+        department: "Events"
+      },
+      {
+        name: "Kanika Tayal",
+        year: "Second Year",
+        department: "Finance"
+      },
+      {
+        name: "Sayed Haneef",
+        year: "Second Year",
+        department: "Finance"
+      },
+      {
+        name: "Shubhangi Singh",
+        year: "Second Year",
+        department: "Finance"
+      },
+      {
+        name: "sparsh sharma",
+        year: "Second Year",
+        department: "Finance"
+      },
+      {
+        name: "Aman Sharma",
+        year: "Second Year",
+        department: "Finance"
+      },
+      {
+        name: "Devansh Pathak",
+        year: "Second Year",
+        department: "Marketing And Outreach"
+      },
+      {
+        name: "Anisha Rawat",
+        year: "Second Year",
+        department: "Marketing And Outreach"
+      },
+      {
+        name: "Aakarshan Prakash",
+        year: "Second Year",
+        department: "Marketing And Outreach"
+      },
+      {
+        name: "Suyash Gupta",
+        year: "Second Year",
+        department: "Marketing And Outreach"
+      },
+      {
+        name: "Sona Poddar",
+        year: "Second Year",
+        department: "Marketing And Outreach"
+      },
+      {
+        name: "Ishan Garg",
+        year: "Second Year",
+        department: "Marketing And Outreach"
+      },
+      {
+        name: "Princy Pandey",
+        year: "Second Year",
+        department: "Visual Media"
+      },
+      {
+        name: "Devansh Goel",
+        year: "Second Year",
+        department: "Visual Media"
+      },
+      {
+        name: "Divyam Kumar",
+        year: "Second Year",
+        department: "Visual Media"
+      },
+      {
+        name: "Devansh Dwivedi",
+        year: "Second Year",
+        department: "Visual Media"
+      },
+      {
+        name: "Ayush Tomer",
+        year: "Third Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Amal Kumar",
+        year: "Third Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Abhay Thakur",
+        year: "Third Year",
+        department: "Digital Infrastructure"
+      },
+      {
+        name: "Ruddra Shukla",
+        year: "Third Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Priyanshu Maheshwari",
+        year: "Third Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Rishabh Bajpai",
+        year: "Third Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Dhruv Gangwani",
+        year: "Third Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Al Saif Siddique",
+        year: "Third Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Ayushman Kushwaha",
+        year: "Third Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Abhishek Bana",
+        year: "Third Year",
+        department: "Digital Social Media"
+      },
+      {
+        name: "Dhruv Sharma",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Ishita Gupta",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Dheer Chanana",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Akshita Singh",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Ayush Kumar Rai",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Aditya Pandey",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Jahnvi Bansal",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Anshika Chaudhary",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Nayyab",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Shubhang Tripathi",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Suvigya Srivastava",
+        year: "Third Year",
+        department: "Events"
+      },
+      {
+        name: "Sarthak Gupta",
+        year: "Third Year",
+        department: "Finance"
+      },
+      {
+        name: "Arindam Rajvardhan",
+        year: "Third Year",
+        department: "Finance"
+      },
+      {
+        name: "Ziyaad Ali",
+        year: "Third Year",
+        department: "Finance"
+      },
+      {
+        name: "Abhay Bansal",
+        year: "Third Year",
+        department: "Marketing And Outreach"
+      },
+      {
+        name: "Zaid Usmani",
+        year: "Third Year",
+        department: "Visual Media"
+      },
+      {
+        name: "Naman Zadoo",
+        year: "Third Year",
+        department: "Visual Media"
+      },
+      {
+        name: "Yash Kumar Mittal",
+        year: "Third Year",
+        department: "Visual Media"
+      },
+      {
+        name: "Govind Sangal",
+        year: "Third Year",
+        department: "Visual Media"
+      },
+      {
+        name: "Shikhar Shaurya",
+        year: "Third Year",
+        department: "Visual Media"
+      }
+    ]
+  
+  
             
     
             

@@ -154,6 +154,9 @@
     /* color: #000; */
     transition: var(--transition);
   }
+  a{
+    text-decoration: none;
+  }
   
   /* .fa-bars {
     color: #fff;
@@ -182,6 +185,11 @@
     color: #000;
     z-index: 1000;
 
+  }
+  .nav-links:hover {
+    color: #fff;
+    background: var(--primary-text);
+    width: 100%;
   }
 
   @media screen and (max-width: 700px) {

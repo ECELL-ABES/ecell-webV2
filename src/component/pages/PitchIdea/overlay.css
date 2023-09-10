@@ -70,7 +70,7 @@
   .startup-form button {
     margin-top: 10px;
     padding: 6px 12px; /* Reduce button size */
-    background-color: #007bff;
+    background-color: var(--bg-primary);
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -90,8 +90,8 @@
     opacity: 0.8;
   }
   .addmember{
-    background-color: #36d7b7;
-    display: flex;
+    background-color: var(--bg-primary);
+    display: flex;  
     justify-content: center;
     text-align: center;
     align-items: center;

@@ -43,14 +43,14 @@ function Navbar() {
         exit={{ opacity: 0 }}
       >
       
-      <div className="nav-logo-div1"><a href="#">
+      <div className="nav-logo-div1"><Link to='/'>
         <img
           className="log_img"
           src={Logo1}
           style={{ maxWidth: "100%", maxHeight: "100%", display: "block", marginTop:"25px" }}
           alt=""
           onClick={closeMobileMenu}
-        /></a></div>
+        /></Link></div>
       <div className="nav-logo-div2"><a href="http://inurture.net/">
         <img
           className="log_img"

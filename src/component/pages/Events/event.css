@@ -123,7 +123,7 @@ color: var(--primary-text);
 
 .Eventtext .button:hover {
   background-color: #fff;
-  color: #36d7b7;
+  color: var(--primary-text);
 }
 
 
