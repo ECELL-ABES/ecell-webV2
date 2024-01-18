@@ -15,11 +15,16 @@ import ShreyashPandey from '../../assets/team/ShreyashPandey.jpg'
 import AdityaKumar from '../../assets/team/alumini/AdityaKumar.jpeg'
 import Neelansh from '../../assets/team/Neelansh.png'
 import NamanKumar from '../../assets/team/alumini/NamanKumar.jpeg'
-import AbhayBansal from '../../assets/team/AbhayBansal.jpeg'
 import AnuroopaGoswami from '../../assets/team/alumini/AnuroopaGoswami.jpg'
 import PrabhanshTripathi from '../../assets/team/alumini/PrabhanshTripathi.jpg'
 import SarveshGautam from '../../assets/team/alumini/SarveshGautam.jpg'
-
+import AdityaPandey from '../../assets/team/adityapandey.jpg'
+import SarthakGupta from '../../assets/team/sarthakgupta.jpg'
+import AyushTomer from '../../assets/team/ayushtomer.jpg'
+import AkshitaSingh from '../../assets/team/akshitasingh.jpg'
+import Ayushmaankushwaha from '../../assets/team/ayushmaankushwaha.jpg'
+import ShikharShaurya from '../../assets/team/shikharshaurya.jpg'
+import AbhayBansal from '../../assets/team/AbhayBansal2.jpg'
 
 
 export const Cordinators=[ 
@@ -193,6 +198,78 @@ export const team=[
 },
 
 
+]
+
+  export const executives2 = [
+    {
+      name:'Mr. Yash Mishra',	
+      position: 'President',
+      mail: 'mailto:yash.20b0131154@abes.ac.in',
+      linkedIn: 'https://in.linkedin.com/in/yash-mishra-b2290220a',
+      instagram:'https://instagram.com/yashprime02', 
+      image: img1,	
+  },
+  {
+      name:'Mr. Ayushmaan Kushwaha',
+      position: 'Vice President',
+      // mail: 'mailto:Kamakshi.20b1541032@abes.ac.in',
+      linkedIn:'https://www.linkedin.com/in/ayushman-kushwaha-19a938227/'	,
+      // instagram:'https://instagram.com/kamakshiii_20',
+      image:Ayushmaankushwaha,
+  },
+  {           		
+      name:'Mr. Sarthak Gupta',
+      position:'Treasurer',
+      // mail:'mailto:Yash.20B0311044@abes.ac.in',
+      linkedIn:'https://www.linkedin.com/in/sarthak-gupta-116358238/',
+      image: SarthakGupta,
+  },
+  {
+      name:'Mr. Ayush Tomer',
+      position: 'TechOps Coordinator',
+      // mail:'mailto:Neelansh.20B0131095@abes.ac.in',
+      linkedIn:'https://www.linkedin.com/in/ayu219/',
+      image:AyushTomer,   
+  },
+  {
+      name: 'Mr. Aditya Pandey',
+      position: 'Events Coordinator',
+      // mail:'mailto:Divyanshu.20B0311189@abes.ac.in',
+      linkedIn:'https://www.linkedin.com/in/aditya-pandey0502/',
+      // instagram:'https://www.instagram.com/di_we_an_shu.2002',
+      image:AdityaPandey,
+  },
+  {
+      name:'Mr. Dhruv Gangwani',
+      position:'Social Media Coordinator',
+      // mail:'mailto:shoaib.20b0211002@abes.ac.in',
+      linkedIn:'https://www.linkedin.com/in/dhruv-gangwani-93a261249/',
+      // instagram:'https://instagram.com/shoaibahmed6433?igshid=Mzc0YWU1OWY=',
+      image:img7,
+  },
+  {
+    name:'Mr. Abhay Bansal',
+    position: 'Marketing And Coordinator',
+    // mail: 'mailto:bhaskar.21b0103011@abes.ac.in',
+    linkedIn:'https://www.linkedin.com/in/abhaybansal1/',
+    image:AbhayBansal,	
+  },
+  {
+    name:'Mr. Shikhar Shaurya' ,
+    position:'Filmography Coordinator' ,
+    // mail:'mailto:Anshika.20b0311068@abes.ac.in' ,
+    linkedIn:'https://www.linkedin.com/in/shikhar-shaurya-62b0bb1bb/'	,
+    // instagram: 'annxiieee' ,
+    image:ShikharShaurya,
+  },
+  {
+    name:'Ms. Akshita Singh' ,
+    position:'Student Coordinator' ,
+    // mail:'mailto:Anshika.20b0311068@abes.ac.in' ,
+    linkedIn:'https://www.linkedin.com/in/akshita-singh-801a44258/'	,
+    // instagram: 'annxiieee' ,
+    image:AkshitaSingh,
+  },
 ]
 
 

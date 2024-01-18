@@ -11,6 +11,7 @@ import {
   mentor,
   team,
   teamData,
+  executives2
 } from "./teamData";
 import TCard from "../card/TCard";
 import Slider from "react-slick";
@@ -31,7 +32,7 @@ function Team() {
         <div className="space"></div>
         <div className="heading">
           <h1>Meet Our Team</h1>
-          <h1>2023-2024</h1>
+          
         </div>
         {/* <div className="team-col">
       <h1 className='text-center'>Mentors</h1>
@@ -53,6 +54,7 @@ function Team() {
         <Slider {...settings}>
           <div className="team-col">
             <h1 className="text-center text">Executives</h1>
+            <h3 className="text-center text">2022-2023</h3>
             <div className="space"></div>
 
             <div className="card_container">
@@ -69,6 +71,41 @@ function Team() {
           </div>
           <div className="team-col">
             <h1 className="text-center text">Alumni</h1>
+            <h3 className="text-center text">2022-2023</h3>
+            <div className="space"></div>
+
+            <div className="card_container">
+              {alumni.map((item) => {
+                return (
+                  <TCard
+                    name={item.name}
+                    position={item.position}
+                    image={item.image}
+                  />
+                );
+              })}
+            </div>
+          </div>
+          <div className="team-col">
+            <h1 className="text-center text">Executives</h1>
+            <h3 className="text-center text">2023-2024</h3>
+            <div className="space"></div>
+
+            <div className="card_container">
+              {executives2.map((item) => {
+                return (
+                  <TCard
+                    name={item.name}
+                    position={item.position}
+                    image={item.image}
+                  />
+                );
+              })}
+            </div>
+          </div>
+          <div className="team-col">
+            <h1 className="text-center text">Alumni</h1>
+            <h3 className="text-center text">2023-2024</h3>
             <div className="space"></div>
 
             <div className="card_container">
