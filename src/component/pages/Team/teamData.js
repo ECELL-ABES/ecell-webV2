@@ -25,6 +25,7 @@ import AkshitaSingh from '../../assets/team/akshitasingh.jpg'
 import Ayushmaankushwaha from '../../assets/team/ayushmaankushwaha.jpg'
 import ShikharShaurya from '../../assets/team/shikharshaurya.jpg'
 import AbhayBansal from '../../assets/team/AbhayBansal2.jpg'
+import DhruvGangwani from '../../assets/team/dhruvgangwani.jpg'
 
 
 export const Cordinators=[ 
@@ -245,7 +246,7 @@ export const team=[
       // mail:'mailto:shoaib.20b0211002@abes.ac.in',
       linkedIn:'https://www.linkedin.com/in/dhruv-gangwani-93a261249/',
       // instagram:'https://instagram.com/shoaibahmed6433?igshid=Mzc0YWU1OWY=',
-      image:img7,
+      image:DhruvGangwani,
   },
   {
     name:'Mr. Abhay Bansal',
