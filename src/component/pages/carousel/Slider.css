@@ -18,4 +18,10 @@
   .slider img.active {
     opacity: 1;
   }
+
+  .slick-prev:before, .slick-next:before {
+   
+    color: black;
+    
+}
   

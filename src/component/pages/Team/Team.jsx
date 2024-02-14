@@ -52,41 +52,7 @@ function Team() {
         </div>
         </div> */}
         <Slider {...settings}>
-          <div className="team-col">
-            <h1 className="text-center text">Executives</h1>
-            <h3 className="text-center text">2022-2023</h3>
-            <div className="space"></div>
-
-            <div className="card_container">
-              {Cordinators.map((item) => {
-                return (
-                  <TCard
-                    name={item.name}
-                    position={item.position}
-                    image={item.image}
-                  />
-                );
-              })}
-            </div>
-          </div>
-          <div className="team-col">
-            <h1 className="text-center text">Alumni</h1>
-            <h3 className="text-center text">2022-2023</h3>
-            <div className="space"></div>
-
-            <div className="card_container">
-              {alumni.map((item) => {
-                return (
-                  <TCard
-                    name={item.name}
-                    position={item.position}
-                    image={item.image}
-                  />
-                );
-              })}
-            </div>
-          </div>
-          <div className="team-col">
+        <div className="team-col">
             <h1 className="text-center text">Executives</h1>
             <h3 className="text-center text">2023-2024</h3>
             <div className="space"></div>
@@ -120,6 +86,44 @@ function Team() {
               })}
             </div>
           </div>
+          <div className="team-col">
+            <h1 className="text-center text">Executives</h1>
+            <h3 className="text-center text">2022-2023</h3>
+            <div className="space"></div>
+
+            <div className="card_container">
+              {Cordinators.map((item) => {
+                return (
+                  <TCard
+                    name={item.name}
+                    position={item.position}
+                    image={item.image}
+                  />
+                );
+              })}
+            </div>
+          </div>
+        
+          <div className="team-col">
+            <h1 className="text-center text">Alumni</h1>
+            <h3 className="text-center text">2022-2023</h3>
+            <div className="space"></div>
+
+            <div className="card_container">
+              {alumni.map((item) => {
+                return (
+                  <TCard
+                    name={item.name}
+                    position={item.position}
+                    image={item.image}
+                  />
+                );
+              })}
+            </div>
+          </div>
+         
+        
+         
           {/* <div className="team-col">
             <h1 className="text-center text">Volunteers 2023-24</h1>
             <div className="space"></div>
