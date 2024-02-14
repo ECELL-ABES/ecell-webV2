@@ -25,7 +25,7 @@ import AkshitaSingh from '../../assets/team/akshitasingh.jpg'
 import Ayushmaankushwaha from '../../assets/team/ayushmaankushwaha.jpg'
 import ShikharShaurya from '../../assets/team/shikharshaurya.jpg'
 import AbhayBansal from '../../assets/team/AbhayBansal2.jpg'
-import DhruvGangwani from '../../assets/team/dhruvgangwani.jpg'
+import DhruvGangwani from '../../assets/team/dhruvgangwani.png'
 
 
 export const Cordinators=[ 
