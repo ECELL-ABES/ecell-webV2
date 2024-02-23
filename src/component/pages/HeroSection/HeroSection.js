@@ -11,7 +11,7 @@ const HeroSection = () => {
         animate={{y:0}}
         transition={{duration: 1.2}}
         className="flex flex-col absolute-center hero-section max-width">
-          <div className="pre-Heading" style={{letterSpacing: ".1rem"}}>• Building Right Attitude to Lead •</div>
+          <div className="pre-Heading" style={{letterSpacing: ".1rem"}}>• From Ideas to Imprint •</div>
         <div 
         
         className="hero-heading"style={{letterSpacing: ".1rem"}}>
